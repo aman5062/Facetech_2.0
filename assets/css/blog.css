@@ -37,32 +37,3 @@ a, .openlinks a {
     font-size: 24px;
     cursor: pointer;
 }
-.homeee, .newsss, .bloggg {
-    background-color: #fff;
-    padding: 20px;
-    margin-top: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.newsss ul, .bloggg ul {
-    list-style: none;
-}
-.newsss li, .bloggg li {
-    margin-bottom: 10px;
-}
-.newsss a, .bloggg a {
-    color: #337ab7;
-    text-decoration: none;
-}
-.homeee:hover, .newsss:hover, .bloggg:hover {
-    background-color: #f7f7f7;
-    cursor: pointer;
-}
-footer{
-    background-color: rgb(46, 155, 228);
-    bottom: 0;
-    position: fixed;
-    width: 1590px;
-    align-items: center;
-}
