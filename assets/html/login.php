@@ -23,7 +23,7 @@
 
         <button>Log In</button>
         <div class="sing">
-            <h3>Don't have an account? <a href="singup.html">singup now</a></h3>
+            <h3>Don't have an account? <a href="singup.php">singup now</a></h3>
           </div>
 
         <div class="social">
