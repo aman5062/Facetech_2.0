@@ -10,7 +10,7 @@
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-    <form>
+    <form action="signup_check.php" method="POST">
         <h3>Singup Here</h3>
 
         <label for="name">Name</label>
@@ -29,7 +29,7 @@
         <label for="password">Conform Password</label>
         <input type="password" placeholder="Password" id="password">
 
-        <button>Log In</button>
+        <button>Signup</button>
         <div class="sing">
             <h3>Already have an account? <a href="login.php">Login now</a></h3>
           </div>
