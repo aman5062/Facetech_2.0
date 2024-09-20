@@ -1,5 +1,5 @@
 <?php
-include_once ("assets/html/db.php");
+include_once ("assets/php/db.php");
 session_start();
 if(!isset($_SESSION["user"])){
     header("Location: assets/php/login.php");
@@ -24,7 +24,7 @@ if(!isset($_SESSION["user"])){
         <div class="texti"><input type="text" value="Search" id="texttt" style="width: 100%;"></div>
         <ul class="openlinks">
             <li><a href="#">Home</a></li>
-            <li><a href="assets/html/news.php">News</a></li>
+            <li><a href="assets/php/news.php">News</a></li>
             <li><a href="#">Blog</a></li>
         </ul>
     </div>
