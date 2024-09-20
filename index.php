@@ -17,18 +17,28 @@ if(!isset($_SESSION["user"])){
     <title>Facetech - Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/news-style.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
 </head>
 <body>
     <form>
-    <div class="opennav">
-        <p class="openbtn">Hi User</p>
-        <div class="texti"><input type="text" value="Search" id="texttt" style="width: 100%;"></div>
-        <ul class="openlinks">
-            <li><a href="#">Home</a></li>
-            <li><a href="assets/php/news.php">News</a></li>
-            <li><a href="#">Blog</a></li>
-        </ul>
-    </div>
+
+    <header>
+        <div class="header-left">
+            <a href="#" class="sale">Hi User</a>
+        </div>
+
+        <div class="header-center">
+            <input type="text" placeholder="Search...">
+        </div>
+
+        <div class="header-right">
+            <a href="index.php">Home</a>
+            <a href="assets/php/news.php">News</a>
+            <a href="assets/php/blog.html">Blog</a>
+        
+        </div>
+    </header>
+
     <section class="homeee">
         <h1>Welcome to Facetech!</h1>
         <p>This is the home page of Facetech, a social platform where you can connect with friends, family, and colleagues.</p>
@@ -49,9 +59,12 @@ if(!isset($_SESSION["user"])){
             <li><a href="#">Blog Post 3</a></li>
         </ul>
     </section>
+    <br><br><br>
     <footer>
-        <p>&copy; 2024 FaceTech. All rights reserved to Team Debugers.</p>
-    </footer>
+    <div class="footer-bottom">
+      <p> 2024 FaceTech. All rights reserved to Team Debugers.</p>
+    </div>
+  </footer>
     </form>
 </body>
 </html>

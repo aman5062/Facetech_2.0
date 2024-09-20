@@ -5,26 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive News Page</title>
     <link rel="stylesheet" href="../css/news-style.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/blog.css">
 </head>
 <body>
-
-<div class="opennav">
-        <p class="openbtn">Hi User</p>
-        <div class="texti"><input type="text" value="Search" id="texttt" style="width: 100%;"></div>
-        <ul class="openlinks">
-            <li><a href="#">Home</a></li>
-            <li><a href="assets/php/news.php">News</a></li>
-            <li><a href="#">Blog</a></li>
-        </ul>
-    </div>
-    <!-- Navbar -->
     <header>
+        <div class="header-left">
+            <a href="#" class="sale">Hi User</a>
+        </div>
+
+        <div class="header-center">
+            <input type="text" placeholder="Search...">
+        </div>
+
+        <div class="header-right">
+            <a href="../../index.php">Home</a>
+            <a href="news.php">News</a>
+            <a href="blog.html">Blog</a>
+        
+        </div>
+    </header>
+    <!-- Navbar -->
         <nav class="navbar">
             <div class="logo">NewsToday</div>
             
         </nav>
-    </header>
 
     <?php
         include_once ("db.php");
@@ -58,9 +63,10 @@
 
     <!-- Footer Section -->
     <footer>
-       
-        <p>&copy; 2024 NewsToday. All rights reserved.</p>
-    </footer>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Hack2Transform| Designed by Debugers</p>
+    </div>
+  </footer>
 
     <script >
         document.addEventListener("DOMContentLoaded", function() {
