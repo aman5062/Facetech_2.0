@@ -11,6 +11,7 @@
     <div class="container">
         <div class="form-section">
             <h2>UPLOAD NEWS</h2>
+            <hr><br>
             <div class="form-group">
                 <label for="imageUpload">Upload Image:</label>
                 <input type="file" id="imageUpload" accept="image/*">
@@ -30,6 +31,7 @@
         </div>
         <div class="preview-section">
             <h2>PREVIEW</h2>
+            <hr><br>
             <div class="preview-content">
                 <div class="preview-image" id="previewImage"></div>
                 <div class="preview-title" id="previewTitle"></div>
