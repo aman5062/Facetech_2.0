@@ -1,3 +1,19 @@
+<?php
+include_once ("assets/html/db.php");
+session_start();
+if(isset($_SESSION["user"])){
+   if($_SESSION["user"]=="active"){
+        header("Location: ../../index.php");
+    }
+}
+
+
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,14 +28,14 @@
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-    <form>
+    <form method="POST" action="login_check.php">
         <h3>Login Here</h3>
 
         <label for="username">Username</label>
-        <input type="text" placeholder="Email or Phone" id="username">
+        <input type="text" placeholder="Email or Phone" id="username" name="username">
 
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password">
+        <input type="password" placeholder="Password" id="password" name="password">
 
         <button>Log In</button>
         <div class="sing">

@@ -1,3 +1,17 @@
+<?php
+include_once ("assets/html/db.php");
+session_start();
+if(!isset($_SESSION["user"])){
+    header("Location: assets/html/login.php");
+}else{
+    if(!$_SESSION["user"]=="active"){
+        header("Location: assets/html/login.php");
+    }
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
