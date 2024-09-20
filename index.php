@@ -7,7 +7,7 @@ if(!isset($_SESSION["user"])){
     if(!$_SESSION["user"]=="active"){
         header("Location: assets/php/login.php");
     }
-}
+} 
 ?>
 <!DOCTYPE html>
 <html lang="en">
