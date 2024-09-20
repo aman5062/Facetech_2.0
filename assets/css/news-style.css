@@ -186,3 +186,93 @@ footer {
         max-width: 80%; /* Remove max-width constraint */
     }
 }
+
+
+
+
+
+
+
+/* News Content Section */
+.news-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: .5rempx;
+}
+
+.news-image {
+    flex: 1 1 30%; /* Image takes at least 30% of the width */
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-image img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.news-text {
+    flex: 1 1 50%; /* Text takes the rest of the width */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    height: 200px; /* Fixed height initially */
+    overflow: hidden; /* Hide overflow */
+    position: relative; /* To position 'Read More' */
+    cursor: pointer; /* Indicate clickable area */
+    transition: height 0.3s ease; /* Smooth expand transition */
+}
+
+.news-text.expanded {
+    height: auto; /* Expand to show full content */
+}
+.news-content.expanded {
+    height: auto; /* Expand to show full content */
+}
+
+/* Media Queries for Responsiveness */
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .news-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+        height: 20rem;
+        flex-wrap: nowrap;
+    }
+
+    .news-image{
+        max-width: 90%;
+    }
+    .news-image img{
+        max-width: 100%;
+    }
+    .news-text {
+        max-width: 95%;
+    }
+   
+    .news-text {
+        height: 19rem;
+    }
+  
+ 
+}
+
+
+
+
+
+
+
+
+
+
+

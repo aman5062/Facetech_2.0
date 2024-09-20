@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Singup</title>
+    <title>Signup</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -25,11 +25,6 @@
         <label for="password">Password</label>
 
         <input type="password" placeholder="Password" id="password" name="password">
-
-        <label for="password">Conform Password</label>
-        <input type="password" placeholder="Password" id="password">
-
-        <button>Signup</button>
         <button>Signup</button>
         <div class="sing">
             <h3>Already have an account? <a href="login.php">Login now</a></h3>
@@ -40,7 +35,7 @@
           </div>
     </form>
     <footer>
-        <p>&copy; 2024 faceTech. All rights reserved to Team Debugers.</p>
+        <p>&copy; 2024 FaceTech. All rights reserved to Team Debugers.</p>
     </footer>
 </body>
 </html>

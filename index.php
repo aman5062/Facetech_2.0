@@ -2,16 +2,13 @@
 include_once ("assets/html/db.php");
 session_start();
 if(!isset($_SESSION["user"])){
-    header("Location: assets/html/login.php");
+    header("Location: assets/php/login.php");
 }else{
     if(!$_SESSION["user"]=="active"){
-        header("Location: assets/html/login.php");
+        header("Location: assets/php/login.php");
     }
 }
-
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +24,7 @@ if(!isset($_SESSION["user"])){
         <div class="texti"><input type="text" value="Search" id="texttt" style="width: 100%;"></div>
         <ul class="openlinks">
             <li><a href="#">Home</a></li>
-            <li><a href="#">News</a></li>
+            <li><a href="assets/html/news.php">News</a></li>
             <li><a href="#">Blog</a></li>
         </ul>
     </div>

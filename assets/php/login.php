@@ -6,14 +6,7 @@ if(isset($_SESSION["user"])){
         header("Location: ../../index.php");
     }
 }
-
-
 ?>
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +32,7 @@ if(isset($_SESSION["user"])){
 
         <button>Log In</button>
         <div class="sing">
-            <h3>Don't have an account? <a href="singup.php">singup now</a></h3>
+            <h3>Don't have an account? <a href="signup.php">Signup now</a></h3>
           </div>
 
         <div class="social">
@@ -48,7 +41,7 @@ if(isset($_SESSION["user"])){
         </div>
     </form>
     <footer>
-        <p>&copy; 2024 faceTech. All rights reserved to Team Debugers.</p>
+        <p>&copy; 2024 FaceTech. All rights reserved to Team Debugers.</p>
     </footer>
 </body>
 </html>
