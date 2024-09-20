@@ -75,7 +75,14 @@ header a:hover {
     transition: color 0.3s ease-in-out;
 }
 /* <------------> */
-
+ #click{
+    text-align: center;
+    padding: 30px;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+ }
 .pic{
     display: flex;
     margin-top: 10px;
