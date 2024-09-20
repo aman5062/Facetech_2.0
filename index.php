@@ -16,11 +16,12 @@ if(!isset($_SESSION["user"])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facetech - Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/news-style.css">
 </head>
 <body>
     <form>
     <div class="opennav">
-        <button class="openbtn">Hi User</button>
+        <p class="openbtn">Hi User</p>
         <div class="texti"><input type="text" value="Search" id="texttt" style="width: 100%;"></div>
         <ul class="openlinks">
             <li><a href="#">Home</a></li>
@@ -49,7 +50,7 @@ if(!isset($_SESSION["user"])){
         </ul>
     </section>
     <footer>
-        <p>&copy; 2023 Facetech. All rights reserved.</p>
+        <p>&copy; 2024 FaceTech. All rights reserved to Team Debugers.</p>
     </footer>
     </form>
 </body>

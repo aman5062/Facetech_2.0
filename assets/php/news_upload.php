@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/news_style.css">
 </head>
 <body>
+    
     <div class="container">
         <div class="form-section">
             <h2>FORM</h2>

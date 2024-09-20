@@ -5,8 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive News Page</title>
     <link rel="stylesheet" href="../css/news-style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+
+<div class="opennav">
+        <p class="openbtn">Hi User</p>
+        <div class="texti"><input type="text" value="Search" id="texttt" style="width: 100%;"></div>
+        <ul class="openlinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="assets/php/news.php">News</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
     <!-- Navbar -->
     <header>
         <nav class="navbar">
@@ -15,43 +26,35 @@
         </nav>
     </header>
 
+    <?php
+        include_once ("db.php");
+        $sql = "SELECT * FROM `news`";
+        $result = mysqli_query($conn,$sql);
+        if($result-> num_rows>0){
+            while($row = $result->fetch_assoc()){
+                echo "
+                 <main class='news-content'>
+        <div class='news-image'>
+            <img src='".$row["Image"]."' alt='News Image'>
+        </div>
+        <div class='news-text'>
+            <h1>".$row["Title"]."</h1>
+            <p>".$row["Content"]."</p>
+        </div>
+    </main>
+                ";
+            }
+        }
+        else{
+            echo "no data";
+        }
+
+    ?>
+
     <!-- Main Content Section -->
-    <main class="news-content">
-        <div class="news-image">
-            <img src="../pictures/news-2.jpeg" alt="News Image">
-        </div>
-        <div class="news-text">
-            <h1>Breaking News: Major Event Happening Now</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis, nisl non luctus vehicula, mauris magna sodales ligula, eu vehicula ligula eros vel turpis. Mauris vulputate urna sit amet justoconsectetur adipisicing elit. Sapiente, voluptas eveniet. Asperiores quisquam doloremque nihil odit ad voluptatibus officiis architecto facere dolor veniam, magnam dignissimos, et ea, cupiditate sequi aliquid! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet reiciendis laudantium unde voluptatum ab, velit nesciunt quae suscipit quos et neque laborum quaerat ratione nulla quas commodi, nobis consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi consequuntur assumenda sint mollitia, aliquam eius sunt vitae odit numquam magnam sequi suscipit dolorum saepe consequatur fuga? Eaque est rerum iure? vehicula, ac cursus arcu iaculis.</p>
-        </div>
-    </main>
-    <main class="news-content">
-        <div class="news-image">
-            <img src="../pictures/news-3.webp" alt="News Image">
-        </div>
-        <div class="news-text">
-            <h1>Breaking News: Major Event Happening Now</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis, nisl non luctus vehicula, mauris magna sodales ligula, eu vehicula ligula eros vel turpis. Mauris vulputate urna sit amet justo vehicula, ac cursus arcu iaculis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, voluptas eveniet. Asperiores quisquam doloremque nihil odit ad voluptatibus officiis architecto facere dolor veniam, magnam dignissimos, et ea, cupiditate sequi aliquid! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet reiciendis laudantium unde voluptatum ab, velit nesciunt quae suscipit quos et neque laborum quaerat ratione nulla quas commodi, nobis consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi consequuntur assumenda sint mollitia, aliquam eius sunt vitae odit numquam magnam sequi suscipit dolorum saepe consequatur fuga? Eaque est rerum iure? </p>
-        </div>
-    </main>
-    <main class="news-content">
-        <div class="news-image">
-            <img src="../pictures/news.jpg" alt="News Image">
-        </div>
-        <div class="news-text">
-            <h1>Breaking News: Major Event Happening Now</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis, nisl non luctus vehicula, mauris magna sodales ligula, eu vehicula ligula eros vel turpis. Mauris vulputate urna sit amet justo consectetur adipisicing elit. Sapiente, voluptas eveniet. Asperiores quisquam doloremque nihil odit ad voluptatibus officiis architecto facere dolor veniam, magnam dignissimos, et ea, cupiditate sequi aliquid! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet reiciendis laudantium unde voluptatum ab, velit nesciunt quae suscipit quos et neque laborum quaerat ratione nulla quas commodi, nobis consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi consequuntur assumenda sint mollitia, aliquam eius sunt vitae odit numquam magnam sequi suscipit dolorum saepe consequatur fuga? Eaque est rerum iure?vehicula, ac cursus arcu iaculis.</p>
-        </div>
-    </main>
-    <main class="news-content">
-        <div class="news-image">
-            <img src="../pictures/news-1.jpeg" alt="News Image">
-        </div>
-        <div class="news-text">
-            <h1>Breaking News: Major Event Happening Now</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis, nisl non luctus vehicula, mauris magna sodaconsectetur adipisicing elit. Sapiente, voluptas eveniet. Asperiores quisquam doloremque nihil odit ad voluptatibus officiis architecto facere dolor veniam, magnam dignissimos, et ea, cupiditate sequi aliquid! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet reiciendis laudantium unde voluptatum ab, velit nesciunt quae suscipit quos et neque laborum quaerat ratione nulla quas commodi, nobis consectetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi consequuntur assumenda sint mollitia, aliquam eius sunt vitae odit numquam magnam sequi suscipit dolorum saepe consequatur fuga? Eaque est rerum iure?les ligula, eu vehicula ligula eros vel turpis. Mauris vulputate urna sit amet justo vehicula, ac cursus arcu iaculis.</p>
-        </div>
-    </main>
+   
+    
+    
 
     <!-- Footer Section -->
     <footer>
