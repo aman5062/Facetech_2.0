@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Form</title>
-    <link rel="stylesheet" href="../css/news_style.css">
+    <link rel="stylesheet" href="../css/news_upload_style.css">
 </head>
 <body>
     
     <div class="container">
         <div class="form-section">
-            <h2>FORM</h2>
+            <h2>UPLOAD NEWS</h2>
             <div class="form-group">
                 <label for="imageUpload">Upload Image:</label>
                 <input type="file" id="imageUpload" accept="image/*">
