@@ -30,6 +30,7 @@
         <input type="password" placeholder="Password" id="password">
 
         <button>Signup</button>
+        <button>Signup</button>
         <div class="sing">
             <h3>Already have an account? <a href="login.php">Login now</a></h3>
           </div>
