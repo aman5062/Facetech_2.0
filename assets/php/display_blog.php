@@ -10,7 +10,7 @@
 
     <header>
         <div class="header-left">
-            <a href="#" class="sale">Hi User</a>
+            <a href="#" class="sale">Hi  <?php session_start(); echo $_SESSION["username"];?></a>
         </div>
 
         <div class="header-center">
@@ -18,13 +18,13 @@
         </div>
 
         <div class="header-right">
-            <a href="../../index.php">Home</a>
-            <a href="news.php">News</a>
-            <a href="blog.html">Blog</a>
-            <a href="logout.php">Logout</a>
+            <a href="#">Home</a>
+            <a href="#">News</a>
+            <a href="#">Blog</a>
+        
         </div>
     </header>
-     
+    
 <section>
        <div class="pic">
         <img id="mains" src="../img/blog.png" alt="blog">
@@ -144,7 +144,7 @@
 
 <footer>
     <div class="footer-content">
-      <p >Thank you for visiting our website. Stay connected with us through our social media channels.</p>
+      <p>Thank you for visiting our website. Stay connected with us through our social media channels.</p>
       <!-- <ul class="socials">
         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -153,7 +153,7 @@
       </ul> -->
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2024 FaceTech| Designed by Debuggers</p>
+      <p>&copy; 2024 Hack2Transform| Designed by Debugers</p>
     </div>
   </footer>
 </body>
