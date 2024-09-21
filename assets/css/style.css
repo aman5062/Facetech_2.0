@@ -9,6 +9,7 @@ body{
     background-color: #080710;
     font-family: 'Poppins',sans-serif;
 }
+
 .background{
     width: 430px;
     height: 520px;
@@ -123,7 +124,7 @@ font-size: 13px;
 .social i{
   margin-right: 4px;
 }
-footer {
+/* footer {
     background-color: #326369;
     color: #fff;
     text-align: center;
@@ -131,4 +132,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
+} */
