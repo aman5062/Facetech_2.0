@@ -27,14 +27,14 @@
                 <button id="previewBtn">Preview</button>
             </div>
         </div>
-        <div class="preview-section">
+        <!-- <div class="preview-section">
             <h2>PREVIEW</h2>
             <div class="preview-content">
                 <div class="preview-image" id="previewImage"></div>
                 <div class="preview-title" id="previewTitle"></div>
                 <div class="preview-text" id="previewText"></div>
             </div>
-        </div>
+        </div> -->
     </div>
     <script src="../js/script.js"></script>
 </body>
