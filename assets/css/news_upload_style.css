@@ -20,11 +20,14 @@ body {
 }
 
 .form-section, .preview-section {
+    width: 50%;
     flex: 1;
     padding: 20px;
     background-color: #f4f4f4;
 
 }
+
+
 
 .form-section {
     border-radius: 15px 0 0 15px ;
@@ -98,7 +101,7 @@ button:hover {
 
 .preview-content {
     width: 70%;
-    height: 70vh;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
