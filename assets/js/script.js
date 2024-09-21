@@ -1,4 +1,4 @@
-document.getElementById('previewBtn').addEventListener('click', function() {
+document.getElementById('previewBtn').addEventListener('click', function() {debugger;
     const imageUpload = document.getElementById('imageUpload');
     const blogTitle = document.getElementById('blogTitle').value;
     const blogContent = document.getElementById('blogContent').value;
