@@ -27,7 +27,7 @@
     </header>
     <!-- Navbar -->
         <nav class="navbar">
-            <div class="logo">NewsToday</div>
+            <div class="logo">NewsToday</div> 
             
         </nav>
 
@@ -56,10 +56,6 @@
 
     ?>
 
-    <!-- Main Content Section -->
-   
-    
-    
 
     <!-- Footer Section -->
     <footer>

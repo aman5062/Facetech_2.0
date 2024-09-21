@@ -41,7 +41,7 @@
                 <div class="preview-title" id="previewTitle"></div>
                 <div class="preview-text" id="previewText"></div>
             </div>
-        </div>
+        </div> -->
     </div>
     <script src="../js/script.js"></script>
 </body>
