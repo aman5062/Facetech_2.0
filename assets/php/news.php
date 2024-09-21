@@ -6,7 +6,7 @@
     <title>Responsive News Page</title>
     <link rel="stylesheet" href="../css/news-style.css">
 </head>
-<body>
+<body> 
     <!-- Navbar -->
     <header>
         <nav class="navbar">
