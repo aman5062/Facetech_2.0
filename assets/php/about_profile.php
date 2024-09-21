@@ -41,6 +41,7 @@
         <a href="#">Photos</a>
     </div>
 
+    
     <div class="about-user-container">
         <h2>About User</h2>
         <div class="user-info">
