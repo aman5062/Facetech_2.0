@@ -56,10 +56,6 @@
 
     ?>
 
-    <!-- Main Content Section -->
-   
-    
-    
 
     <!-- Footer Section -->
     <footer>
