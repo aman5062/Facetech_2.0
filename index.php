@@ -35,6 +35,7 @@ if(!isset($_SESSION["user"])){
             <a href="index.php">Home</a>
             <a href="assets/php/news.php">News</a>
             <a href="assets/php/blog.html">Blog</a>
+            <a href="assets/php/logout.php">Logout</a>
         
         </div>
     </header>
