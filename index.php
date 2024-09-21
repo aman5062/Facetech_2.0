@@ -24,7 +24,7 @@ if(!isset($_SESSION["user"])){
 
     <header>
         <div class="header-left">
-            <a href="#" class="sale">Hi User</a>
+            <a href="#" class="sale">Hi <?php echo $_SESSION["username"]; ?></a>
         </div>
 
         <div class="header-center">
