@@ -5,25 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive News Page</title>
     <link rel="stylesheet" href="../css/news-style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/blog.css">
 </head>
-<body> 
-    <!-- Navbar -->
+<body>
     <header>
+        <div class="header-left">
+            <a href="#" class="sale">Hi User</a>
+        </div>
+
+        <div class="header-center">
+            <input type="text" placeholder="Search...">
+        </div>
+
+        <div class="header-right">
+            <a href="../../index.php">Home</a>
+            <a href="news.php">News</a>
+            <a href="blog.html">Blog</a>
+        
+        </div>
+    </header>
+    <!-- Navbar -->
         <nav class="navbar">
             <div class="logo">NewsToday</div>
             
         </nav>
-    </header>
 
-
-   <?php 
-   include_once("db.php");
-   $sql = "SELECT * FROM `news`";
-   $result = mysqli_query($conn,$sql);
-   if($result->num_rows>0){
-    while($row = $result-> fetch_assoc()){
-        echo "
-        <main class='news-content'>
+    <?php
+        include_once ("db.php");
+        $sql = "SELECT * FROM `news`";
+        $result = mysqli_query($conn,$sql);
+        if($result-> num_rows>0){
+            while($row = $result->fetch_assoc()){
+                echo "
+                 <main class='news-content'>
         <div class='news-image'>
             <img src='".$row["Image"]."' alt='News Image'>
         </div>
@@ -32,19 +47,22 @@
             <p>".$row["Content"]."</p>
         </div>
     </main>
-        ";
-    }
-   }else{
-    echo "No Data";
-   }
-    
+                ";
+            }
+        }
+        else{
+            echo "no data";
+        }
+
     ?>
+
 
     <!-- Footer Section -->
     <footer>
-       
-        <p>&copy; 2024 NewsToday. All rights reserved.</p>
-    </footer>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Hack2Transform| Designed by Debugers</p>
+    </div>
+  </footer>
 
     <script >
         document.addEventListener("DOMContentLoaded", function() {
