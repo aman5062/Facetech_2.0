@@ -1,0 +1,31 @@
+name: Update README with Contributor Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Runs every Sunday
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Fetch Contributor Stats
+      run: |
+        curl -s https://api.github.com/repos/aman5062/facetech_2.0/stats/contributors > contributors.json
+
+    - name: Update README
+      run: |
+        CONTRIBUTORS=$(jq -r '.[] | "| \(.author.login) | \(.total) | \(.weeks | map(.a) | add) | \(.weeks | map(.d) | add) |"' contributors.json)
+        sed -i "s/{{ CONTRIBUTORS }}/$CONTRIBUTORS/" README.md
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "GitHub Actions"
+        git add README.md
+        git commit -m "Update contributor stats"
+        git push
