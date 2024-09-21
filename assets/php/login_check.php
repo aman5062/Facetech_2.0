@@ -16,7 +16,7 @@
         $_SESSION["user"]="active";
         header("Location: ../../index.php");
     }
-    else{
+    else{ 
         echo "wrong password";
     }
 
