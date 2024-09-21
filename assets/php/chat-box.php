@@ -15,7 +15,7 @@
             <div class="user">
                 <img src="https://via.placeholder.com/40" alt="User Avatar" class="user-photo">
                 <div class="user-details">
-                    <span class="username">john_doe</span>
+                    <span class="username"> <?php session_start(); echo $_SESSION["username"];?> </span>
                     <span class="last-message">Hey, how's it going?</span>
                 </div>
             </div>
