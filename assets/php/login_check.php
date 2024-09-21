@@ -14,6 +14,8 @@
 
     if($count2==1){
         $_SESSION["user"]="active";
+        $row = $result->fetch_assoc();
+        $_SESSION["username"]=$row["Username"];
         header("Location: ../../index.php");
     }
     else{

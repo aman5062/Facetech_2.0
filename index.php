@@ -24,7 +24,7 @@ if(!isset($_SESSION["user"])){
 
     <header>
         <div class="header-left">
-            <a href="#" class="sale">Hi User</a>
+            <a href="#" class="sale">Hi <?php echo $_SESSION["username"]; ?></a>
         </div>
 
         <div class="header-center">
@@ -34,7 +34,7 @@ if(!isset($_SESSION["user"])){
         <div class="header-right">
             <a href="index.php">Home</a>
             <a href="assets/php/news.php">News</a>
-            <a href="assets/php/blog.html">Blog</a>
+            <a href="assets/php/blog.php">Blog</a>
         
         </div>
     </header>

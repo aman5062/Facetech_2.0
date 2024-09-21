@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="header-left">
-            <a href="#" class="sale">Hi User</a>
+            <a href="#" class="sale">Hi  <?php session_start(); echo $_SESSION["username"];?> </a>
         </div>
 
         <div class="header-center">
