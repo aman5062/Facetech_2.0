@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook Profile</title>
     <link rel="stylesheet" href="../css/blog.css">
-    <link rel="stylesheet" href="../../style.css">
     
 </head>
 <body>
@@ -35,7 +34,7 @@
 
     <!-- Navigation Tabs -->
     <div class="nav-tabs">
-        <a href="#post">Posts</a>
+        <a href="../php/about_profile.php">Posts</a>
         <a href="../php/about_profile.php">About</a>
         <a href="#">Friends</a>
         <a href="#">Photos</a>
