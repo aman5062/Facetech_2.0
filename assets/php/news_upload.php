@@ -29,7 +29,11 @@
                 <button id="previewBtn">Preview</button>
             </div>
         </div>
-        <!-- <div class="preview-section">
+
+
+
+
+        <div class="preview-section">
             <h2>PREVIEW</h2>
             <hr><br>
             <div class="preview-content">
