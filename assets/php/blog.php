@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../css/blog.css">
 </head>
 <body>
-
     <header>
         <div class="header-left">
             <a href="#" class="sale">Hi  <?php session_start(); echo $_SESSION["username"];?> </a>
@@ -95,7 +94,7 @@
       </ul> -->
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2024 Hack2Transform| Designed by Debugers</p>
+      <p>&copy; 2024 FaceTech| Designed by Debugers</p>
     </div>
   </footer>
 </body>
