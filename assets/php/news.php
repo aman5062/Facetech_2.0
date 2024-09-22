@@ -1,3 +1,17 @@
+<?php
+include_once ("db.php");
+session_start();
+if(!isset($_SESSION["user"])){
+    header("Location: login.php");
+}else{
+    if(!$_SESSION["user"]=="active"){
+        header("Location: login.php");
+    }
+} 
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,16 +35,12 @@
         <div class="header-right">
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
-            <a href="blog.php">Blog</a>
+            <a href="blog.html">Blog</a>
+            <a href="logout.php">Logout</a>
         
         </div>
     </header>
-    <!-- Navbar -->
-        <nav class="navbar">
-            <div class="logo">NewsToday</div> 
-            
-        </nav>
-
+      
     <?php
         include_once ("db.php");
         $sql = "SELECT * FROM `news`";
@@ -60,7 +70,7 @@
     <!-- Footer Section -->
     <footer>
     <div class="footer-bottom">
-      <p>&copy; 2024 Hack2Transform| Designed by Debugers</p>
+      <p>&copy; 2024 FaceTech| Designed by Debuggers</p>
     </div>
   </footer>
 
