@@ -17,6 +17,8 @@
         $row = $result-> fetch_assoc();
         $_SESSION["username"] = $row["Username"];
         $_SESSION["user"]="active";
+        $row = $result->fetch_assoc();
+        $_SESSION["username"]=$row["Username"];
         header("Location: ../../index.php");
     }
     else{ 

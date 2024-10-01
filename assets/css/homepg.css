@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hmpg{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #eaeaea;
+}
+.blog_hmpg{
+    /* border: 2px solid; */
+    width: 23%;
+    height: 800px;
+    padding: 10px;
+}
+
+.post_hmpg{
+    width: 45%;
+    height: 800px;
+}
+.post_con{
+    width: 100%;
+    height: 110px;
+    padding: 10px;
+}
+#post {
+    width: 100%;
+    padding: 7px 7px 7px 10px;
+    margin-top: 5px;
+    font-size: 17px;
+    border-radius: 50px;
+    border: none;
+    
+}
+input[type="file"]{
+    width: 80%;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 17px;
+    border-radius: 50px;
+    background-color: #fff;
+    
+}
+#post_text{
+    background-color: #007BFF;
+    border: none;
+    width: 19%;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 5px;
+
+    border-radius: 50px;
+    cursor: pointer;
+}
+input[type="file"]::-webkit-file-upload-button{
+    background-color: #007BFF;
+    border: none;
+    width: 22%;
+    color: #fff;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+input[type="file"]::-webkit-file-upload-button:hover{
+    background-color: #0056b3;
+}
+.suggest_hmpg{
+    width: 23%;
+    /* border: 2px solid; */
+
+}
+.news_hmpg{
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.news_img{
+    width: 50%;
+    margin: 0 10px 0 0;
+}
+.news_text{
+    width: 50%;
+    display: block;
+    font-size: 15px;
+
+}
+.news_title{
+    font-weight: 600;
+}
+.news_con{
+    font-size: 15px;
+}
+.suggestion_hmpg{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 25px 20px 25px;
+}
+.authors {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.sug_con{
+    display: flex;
+    align-items: center;
+}
+.icon_add{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.icon_add:hover{
+    background-color: #eaeaea;
+}

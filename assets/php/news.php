@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="header-left">
-            <a href="#" class="sale">Hi User</a>
+            <a href="#" class="sale">Hi  <?php session_start(); echo $_SESSION["username"];?></a>
         </div>
 
         <div class="header-center">
@@ -21,7 +21,7 @@
         <div class="header-right">
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
-            <a href="blog.html">Blog</a>
+            <a href="blog.php">Blog</a>
         
         </div>
     </header>
