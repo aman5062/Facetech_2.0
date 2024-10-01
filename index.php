@@ -15,56 +15,138 @@ if(!isset($_SESSION["user"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facetech - Home</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="assets/css/news-style.css">
     <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="assets/css/homepg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <form>
 
     <header>
-        <div class="header-left">
+       <div class="header_left">
+       <div class="header-left">
+            <div class="profile"></div>
             <a href="#" class="sale">Hi <?php echo $_SESSION["username"]; ?></a>
         </div>
 
         <div class="header-center">
             <input type="text" placeholder="Search...">
         </div>
+       </div>
 
         <div class="header-right">
             <a href="index.php">Home</a>
             <a href="assets/php/news.php">News</a>
-            <a href="assets/php/blog.html">Blog</a>
+            <a href="assets/php/blog.php">Blog</a>
         
         </div>
     </header>
 
-    <section class="homeee">
-        <h1>Welcome to Facetech!</h1>
-        <p>This is the home page of Facetech, a social platform where you can connect with friends, family, and colleagues.</p>
-    </section>
-    <section class="newsss">
-        <h1>Latest News</h1>
-        <ul>
-            <li><a href="#">News Article 1</a></li>
-            <li><a href="#">News Article 2</a></li>
-            <li><a href="#">News Article 3</a></li>
-        </ul>
-    </section>
-    <section class="bloggg">
-        <h1>Latest Blog Posts</h1>
-        <ul>
-            <li><a href="#">Blog Post 1</a></li>
-            <li><a href="#">Blog Post 2</a></li>
-            <li><a href="#">Blog Post 3</a></li>
-        </ul>
-    </section>
-    <br><br><br>
+    <div class="hmpg">
+        <div class="blog_hmpg">
+        <div class="article-card">
+            <img src="assets/img/web.png" alt="Web Development">
+            <div class="article-content">
+                <div class="author">Ajay Kumar</div>
+                <h3>Things a Web Developer Needs to Learn</h3>
+                <p>Introduction: Web development is a dynamic and ever-evolving field, and staying relevant as a web developer...</p>
+            </div>
+        </div>
+        <br>
+        <div class="article-card">
+            <img src="assets/img/web.png" alt="Web Development">
+            <div class="article-content">
+                <div class="author">Ajay Kumar</div>
+                <h3>Things a Web Developer Needs to Learn</h3>
+                <p>Introduction: Web development is a dynamic and ever-evolving field, and staying relevant as a web developer...</p>
+            </div>
+        </div>
+        </div>
+        <div class="post_hmpg">
+            <div class="post_con">
+            <input type="text" id="post" placeholder="Start a post"> 
+            <input type="file" id="imageUpload" accept="image/*">
+            <button id="post_text">Post</button>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="reg_post">
+                <div class="article-card">
+                <div class="author">
+                <div class="profile" style="border: 2px solid;"></div> 
+                Ajay Kumar</div>
+                <h3>Things a Web Developer Needs to Learn</h3>
+                <img src="assets/img/web.png" alt="Web Development">
+                <div class="article-content">
+                    <p>Introduction: Web development is a dynamic and ever-evolving field, and staying relevant as a web developer...</p>
+                </div>
+                 </div>
+            </div>
+        </div>
+        <div class="suggest_hmpg">
+            <div class="news_hmpg">
+                <div class="news_img">
+                    <img src="assets/pictures/news-2.jpeg" alt="" width="100%">
+                </div>
+                <div class="news_text">
+                    <div class="news_title">
+                        today hot news
+                    </div>
+                    <div class="news_con">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque modi quos suscipit iusto aperiam aut natus dolore quod............
+                    </div>
+                </div>
+            </div>
+            <div class="news_hmpg">
+                <div class="news_img">
+                    <img src="assets/pictures/news-2.jpeg" alt="" width="100%">
+                </div>
+                <div class="news_text">
+                    <div class="news_title">
+                        today hot news
+                    </div>
+                    <div class="news_con">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque modi quos suscipit iusto aperiam aut natus dolore quod............
+                    </div>
+                </div>
+
+            </div><br>
+            <hr><br>
+            <div class="suggestion_hmpg">
+                <div class="authors">
+                    <div class="sug_con"><div class="profile" style="border: 2px solid;"></div> &nbsp; <p>shashank Kumar</p></div>
+                    <div class="icon_add" ><i class="fa-solid fa-user-plus"></i></div>
+                </div>
+                <div class="authors">
+                    <div class="sug_con"><div class="profile" style="border: 2px solid;"></div> &nbsp; <p>harsh Kumar</p></div>
+                    <div class="icon_add" ><i class="fa-solid fa-user-plus"></i></div>
+                </div>
+                <div class="authors">
+                    <div class="sug_con"><div class="profile" style="border: 2px solid;"></div> &nbsp; <p>nikhil Kumar sahu</p></div>
+                    <div class="icon_add" ><i class="fa-solid fa-user-plus"></i></div>
+                </div>
+                <div class="authors">
+                    <div class="sug_con"><div class="profile" style="border: 2px solid;"></div> &nbsp; <p>nikhil Kumar</p></div>
+                    <div class="icon_add" ><i class="fa-solid fa-user-plus"></i></div>
+                </div>
+                <div class="authors">
+                    <div class="sug_con"><div class="profile" style="border: 2px solid;"></div> &nbsp; <p>aman Kumar keshri</p></div>
+                    <div class="icon_add" ><i class="fa-solid fa-user-plus"></i></div>
+                </div>
+                <div class="authors">
+                    <div class="sug_con"><div class="profile" style="border: 2px solid;"></div> &nbsp; <p>Ajay Kumar</p></div>
+                    <div class="icon_add" ><i class="fa-solid fa-user-plus"></i></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    
     <footer>
     <div class="footer-bottom">
       <p> 2024 FaceTech. All rights reserved to Team Debugers.</p>
     </div>
   </footer>
-    </form>
 </body>
 </html>
