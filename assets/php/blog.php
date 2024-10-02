@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
     <header>
        <div class="header_left">
        <div class="header-left">
@@ -100,7 +99,7 @@
       </ul> -->
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2024 Hack2Transform| Designed by Debugers</p>
+      <p>&copy; 2024 FaceTech| Designed by Debugers</p>
     </div>
   </footer>
 </body>
