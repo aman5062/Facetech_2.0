@@ -62,7 +62,7 @@ input[type="file"]{
     padding: 4px;
 }
 input[type="file"]::-webkit-file-upload-button{
-    background-color: #007BFF;
+    background-color: #735DA5;
     border: none;
     width: 22%;
     color: #fff;
@@ -72,7 +72,9 @@ input[type="file"]::-webkit-file-upload-button{
     cursor: pointer;
 }
 input[type="file"]::-webkit-file-upload-button:hover{
-    background-color: #0056b3;
+    background-color: #D3C5E5
+
+    ;
 }
 textarea {
     resize: none;

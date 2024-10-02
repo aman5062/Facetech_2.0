@@ -9,14 +9,17 @@
     <link rel="stylesheet" href="../css/blog.css">
 </head>
 <body>
-    <header>
-        <div class="header-left">
+<header>
+       <div class="header_left">
+       <div class="header-left">
+            <div class="profile"></div>
             <a href="#" class="sale">Hi  <?php session_start(); echo $_SESSION["username"];?></a>
         </div>
 
         <div class="header-center">
             <input type="text" placeholder="Search...">
         </div>
+       </div>
 
         <div class="header-right">
             <a href="../../index.php">Home</a>
@@ -25,13 +28,8 @@
         
         </div>
     </header>
-    <!-- Navbar -->
-        <nav class="navbar">
-            <div class="logo">NewsToday</div> 
-            
-        </nav>
-
-    <?php
+   <section style="background-color: #D3C5E5;">
+   <?php
         include_once ("db.php");
         $sql = "SELECT * FROM `news`";
         $result = mysqli_query($conn,$sql);
@@ -63,6 +61,7 @@
       <p>&copy; 2024 Hack2Transform| Designed by Debugers</p>
     </div>
   </footer>
+   </section>
 
     <script >
         document.addEventListener("DOMContentLoaded", function() {

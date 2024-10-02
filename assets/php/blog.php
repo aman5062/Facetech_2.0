@@ -5,22 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facetech-Blog</title>
     <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/homepg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
     <header>
-        <div class="header-left">
-            <a href="#" class="sale">Hi  <?php session_start(); echo $_SESSION["username"];?> </a>
+       <div class="header_left">
+       <div class="header-left">
+            <div class="profile"></div>
+            <a href="#" class="sale">Hi  <?php session_start(); echo $_SESSION["username"];?></a>
         </div>
 
         <div class="header-center">
             <input type="text" placeholder="Search...">
         </div>
+       </div>
 
         <div class="header-right">
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
-            <a href="blog.html">Blog</a>
+            <a href="blog.php">Blog</a>
         
         </div>
     </header>

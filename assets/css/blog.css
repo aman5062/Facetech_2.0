@@ -5,7 +5,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
+    /* background-color: #f0f2f5; */
 }
 /*--------header------- */
 header {
@@ -13,7 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #4e75cf;
+    background-color: #735DA5;
     border-bottom: 1px solid #ccc;
 }
 .header_left{
@@ -224,6 +224,8 @@ p {
  .article-section {
     text-align: center;
     padding: 40px 20px;
+    background-color: #D3C5E5;
+
 }
 
 .article-section h2 {
