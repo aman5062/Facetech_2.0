@@ -8,7 +8,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: #eaeaea;
+    background-color: #D3C5E5;
 }
 .blog_hmpg{
     /* border: 2px solid; */
@@ -45,7 +45,7 @@ input[type="file"]{
     
 }
 #post_text{
-    background-color: #007BFF;
+    background-color: #735DA5;
     border: none;
     width: 19%;
     color: #fff;
@@ -57,7 +57,7 @@ input[type="file"]{
     cursor: pointer;
 }
 input[type="file"]::-webkit-file-upload-button{
-    background-color: #007BFF;
+    background-color: #735DA5;
     border: none;
     width: 22%;
     color: #fff;
@@ -67,7 +67,9 @@ input[type="file"]::-webkit-file-upload-button{
     cursor: pointer;
 }
 input[type="file"]::-webkit-file-upload-button:hover{
-    background-color: #0056b3;
+    background-color: #D3C5E5
+
+    ;
 }
 .suggest_hmpg{
     width: 23%;

@@ -5,26 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facetech-Blog</title>
     <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/homepg.css">
 </head>
 <body>
-
-    <header>
-        <div class="header-left">
+<header>
+<div class="header_left">
+       <div class="header-left">
+            <div class="profile"></div>
             <a href="#" class="sale">Hi  <?php session_start(); echo $_SESSION["username"];?></a>
         </div>
 
         <div class="header-center">
             <input type="text" placeholder="Search...">
         </div>
+       </div>
 
         <div class="header-right">
-            <a href="#">Home</a>
-            <a href="#">News</a>
-            <a href="#">Blog</a>
+            <a href="../../index.php">Home</a>
+            <a href="news.php">News</a>
+            <a href="blog.php">Blog</a>
         
         </div>
     </header>
     
+<section class="article-section">
 <section>
        <div class="pic">
         <img id="mains" src="../img/blog.png" alt="blog">
@@ -142,6 +146,7 @@
     </div>
 </section>
 
+</section>
 <footer>
     <div class="footer-content">
       <p>Thank you for visiting our website. Stay connected with us through our social media channels.</p>

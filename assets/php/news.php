@@ -1,3 +1,17 @@
+<?php
+include_once ("db.php");
+session_start();
+if(!isset($_SESSION["user"])){
+    header("Location: login.php");
+}else{
+    if(!$_SESSION["user"]=="active"){
+        header("Location: login.php");
+    }
+} 
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,19 +23,23 @@
     <link rel="stylesheet" href="../css/blog.css">
 </head>
 <body>
-    <header>
-        <div class="header-left">
+<header>
+       <div class="header_left">
+       <div class="header-left">
+            <div class="profile"></div>
             <a href="#" class="sale">Hi  <?php session_start(); echo $_SESSION["username"];?></a>
         </div>
 
         <div class="header-center">
             <input type="text" placeholder="Search...">
         </div>
+       </div>
 
         <div class="header-right">
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
-            <a href="blog.php">Blog</a>
+            <a href="blog.html">Blog</a>
+            <a href="logout.php">Logout</a>
         
         </div>
     </header>
@@ -60,9 +78,10 @@
     <!-- Footer Section -->
     <footer>
     <div class="footer-bottom">
-      <p>&copy; 2024 Hack2Transform| Designed by Debugers</p>
+      <p>&copy; 2024 FaceTech| Designed by Debuggers</p>
     </div>
   </footer>
+   </section>
 
     <script >
         document.addEventListener("DOMContentLoaded", function() {
