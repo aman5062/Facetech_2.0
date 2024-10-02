@@ -9,21 +9,24 @@
 <body>
 
     <header>
+        <div class="header_left">
         <div class="header-left">
-            <a href="#" class="sale">Hi User</a>
+             <div class="profile"></div>
+             <a href="#" class="sale">Hi  <?php session_start(); echo $_SESSION["username"];?></a>
+         </div>
+ 
+         <div class="header-center">
+             <input type="text" placeholder="Search...">
+         </div>
         </div>
-
-        <div class="header-center">
-            <input type="text" placeholder="Search...">
-        </div>
-
-        <div class="header-right">
-            <a href="#">Home</a>
-            <a href="#">News</a>
-            <a href="#">Blog</a>
-        
-        </div>
-    </header>
+ 
+         <div class="header-right">
+             <a href="../../index.php">Home</a>
+             <a href="news.php">News</a>
+             <a href="blog.php">Blog</a>
+         
+         </div>
+     </header>
 
     <center><div id="click" ><a href="blog.html">Click Here For Blog </a></div></center>
 

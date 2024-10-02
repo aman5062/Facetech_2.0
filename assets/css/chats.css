@@ -7,11 +7,11 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    /* background: linear-gradient(135deg, #2974ff, #feb47b); */
-    display: flex;
+    background-color: #D3C5E5;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; */
 }
 
 /* Chatbox Container */
@@ -25,6 +25,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 2% auto;
 }
 
 /* Conversation List */
@@ -32,7 +33,7 @@ body {
     width: 30%;
     border-right: 1px solid #ddd;
     /* background: linear-gradient(135deg, #667eea, #764ba2); */
-    background-color: #4e75cfd7;
+    background-color: #735DA5;
     color: white;
     overflow-y: auto;
 }
@@ -84,7 +85,7 @@ body {
     align-items: center;
     border-bottom: 1px solid #ddd;
     /* background: linear-gradient(135deg, #ff6a88, #ff6e91); */
-    background-color: #4e75cffa;
+    background-color: #735DA5;
     color: white;
 }
 
