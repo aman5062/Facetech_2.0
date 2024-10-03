@@ -73,11 +73,12 @@ if(!isset($_SESSION["user"])){
             <hr>
             <br>
             <div class="reg_post">
-                <div class="article-card">
-                <div class="author">
-                <div class="profile" style="border: 2px solid;"></div> 
-                Ajay Kumar</div>
-                <h3>Things a Web Developer Needs to Learn</h3>
+                <div class="article-card" >
+                <div class="author" style="padding:10px 0 0 10px;">
+                <div class="profile" style="border: 2px solid;">
+                    <!-- <img src="assets/img/m.png" alt=""> -->
+                </div> &nbsp; Ajay Kumar</div>
+                    <h3 style="padding: 0 0 0 10px;">Things a Web Developer Needs to Learn</h3>
                 <img src="assets/img/web.png" alt="Web Development">
                 <div class="article-content">
                     <p>Introduction: Web development is a dynamic and ever-evolving field, and staying relevant as a web developer...</p>
