@@ -15,6 +15,7 @@ header {
     padding: 10px 20px;
     background-color: #735DA5;
     border-bottom: 1px solid #ccc;
+    position: relative;
 }
 .header_left{
   display: flex;
@@ -290,6 +291,41 @@ p {
 .subscription-form button:hover {
     background-color: #333;
 }
+
+
+.up_blog{
+  width: 200px;
+  height: 50px;
+  display: flex;
+  border-radius: 50px;
+  background-color:#735DA5 ;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+  position: absolute;
+  right: 0;
+  margin:20px 20px 0 0;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.load{
+  width: 120px;
+  height: 30px;
+  display: flex;
+  border-radius: 50px;
+  background-color:#735DA5 ;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+  margin:20px 20px 0 0;
+  font-weight: bold;
+}
  /*------article------- */
 
  .article-section {
@@ -323,9 +359,10 @@ p {
     overflow: hidden;
 }
 
-.article-card:hover {
+.article-card:hover,.up_blog:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .article-card img {
