@@ -13,12 +13,15 @@
        $count2 = mysqli_num_rows($result2);
 
     if($count2==1){
+        // $result = mysqli_query($conn,$sql);
+        $row = $result-> fetch_assoc();
+        $_SESSION["username"] = $row["Username"];
         $_SESSION["user"]="active";
         $row = $result->fetch_assoc();
         $_SESSION["username"]=$row["Username"];
         header("Location: ../../index.php");
     }
-    else{
+    else{ 
         echo "wrong password";
     }
 

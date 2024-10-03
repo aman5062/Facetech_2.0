@@ -2,7 +2,7 @@ document.getElementById('previewBtn').addEventListener('click', function() {
     const imageUpload = document.getElementById('imageUpload');
     const blogTitle = document.getElementById('blogTitle').value;
     const blogContent = document.getElementById('blogContent').value;
-
+ 
     // Display blog title
     document.getElementById('previewTitle').innerText = blogTitle;
 

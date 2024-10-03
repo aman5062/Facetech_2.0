@@ -7,9 +7,11 @@ if(!isset($_SESSION["user"])){
     if(!$_SESSION["user"]=="active"){
         header("Location: assets/php/login.php");
     }
+
 } 
-?>
+?>   
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,11 +22,10 @@ if(!isset($_SESSION["user"])){
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
     <header>
        <div class="header_left">
        <div class="header-left">
-            <div class="profile"></div>
+        <a href="assets/php/profilepage.php"><div class="profile"></div></a>
             <a href="#" class="sale">Hi <?php echo $_SESSION["username"]; ?></a>
         </div>
 
@@ -37,6 +38,7 @@ if(!isset($_SESSION["user"])){
             <a href="index.php">Home</a>
             <a href="assets/php/news.php">News</a>
             <a href="assets/php/blog.php">Blog</a>
+            <a href="assets/php/logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
         
         </div>
     </header>

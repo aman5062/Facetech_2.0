@@ -5,27 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/blog.css">
     <title>FaceTech-Blog Upload</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
     <header>
+        <div class="header_left">
         <div class="header-left">
-            <a href="#" class="sale">Hi User</a>
+        <a href="profilepage.php"><div class="profile"></div></a>
+        <a href="#" class="sale">Hi 
+                 <?php session_start(); echo $_SESSION["username"];?>
+            </a>
+         </div>
+ 
+         <div class="header-center">
+             <input type="text" placeholder="Search...">
+         </div>
         </div>
+ 
+         <div class="header-right">
+             <a href="../../index.php">Home</a>
+             <a href="news.php">News</a>
+             <a href="blog.php">Blog</a>
+             <a href="logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
 
-        <div class="header-center">
-            <input type="text" placeholder="Search...">
-        </div>
+         </div>
+     </header>
 
-        <div class="header-right">
-            <a href="#">Home</a>
-            <a href="#">News</a>
-            <a href="#">Blog</a>
-        
-        </div>
-    </header>
-
-    <center><div id="click" ><a href="blog.html">Click Here For Blog </a></div></center>
+    <center><div id="click" ><a href="../php/blog.php">Go to Blog Page </a></div></center>
 
     <section id="Upload">
         <div class="form-section">
@@ -99,7 +106,7 @@
       </ul> -->
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2024 Hack2Transform| Designed by Debugers</p>
+      <p>&copy; 2024 FaceTech| Designed by Debugers</p>
     </div>
   </footer>
     <script src="../js/script.js"></script>

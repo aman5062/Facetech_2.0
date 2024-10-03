@@ -5,26 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facetech-Blog</title>
     <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/homepg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
-    <header>
-        <div class="header-left">
+<header>
+<div class="header_left">
+       <div class="header-left">
+       <a href="profilepage.php"><div class="profile"></div></a>
             <a href="#" class="sale">Hi  <?php session_start(); echo $_SESSION["username"];?></a>
         </div>
 
         <div class="header-center">
             <input type="text" placeholder="Search...">
         </div>
+       </div>
 
         <div class="header-right">
-            <a href="#">Home</a>
-            <a href="#">News</a>
-            <a href="#">Blog</a>
+            <a href="../../index.php">Home</a>
+            <a href="news.php">News</a>
+
+            <a href="blog.php">Blog</a>
+            <a href="assets/php/logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
+
         
         </div>
     </header>
     
+<section class="article-section">
 <section>
        <div class="pic">
         <img id="mains" src="../img/blog.png" alt="blog">
@@ -34,11 +42,14 @@
 <section id="write">
     <div class="contai">
         <h1>FaceTech: Pioneering the Next Generation of ChatBox in FaceTech.</h1>
-        <div class="author">
-            <img src="../img/m.png" alt="Author Profile" class="profile-pic">
-            <span class="author-name">Ajay Munda Murmu </span>
-            <span class="date">• Sep 20, 2024 • 4 min read</span>
+        <div class="profile-container">
+        <img src="../img/m.png" alt="Profile Picture" class="profile-pics">
+        <div class="info">
+            <span class="name">Nikhil KUMAR</span>
+            <span class="date">• Mar 20, 2024 •</span>
+            <span class="read-time">4 min read</span>
         </div>
+    </div>
         <h2>Introduction:</h2>
         <p class="intro-text">
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!
@@ -46,11 +57,14 @@
     </div>
     <div class="contai">
         <h1>FaceTech: Pioneering the Next Generation of ChatBox in FaceTech.</h1>
-        <div class="author">
-            <img src="../img/m.png" alt="Author Profile" class="profile-pic">
-            <span class="author-name">Ajay Munda Murmu </span>
-            <span class="date">• Sep 20, 2024 • 4 min read</span>
+        <div class="profile-container">
+        <img src="../img/m.png" alt="Profile Picture" class="profile-pics">
+        <div class="info">
+            <span class="name">Nikhil KUMAR</span>
+            <span class="date">• Mar 20, 2024 •</span>
+            <span class="read-time">4 min read</span>
         </div>
+    </div>
         <h2>Introduction:</h2>
         <p class="intro-text">
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!
@@ -59,11 +73,14 @@
 
     <div class="contai">
         <h1>FaceTech: Pioneering the Next Generation of ChatBox in FaceTech.</h1>
-        <div class="author">
-            <img src="../img/m.png" alt="Author Profile" class="profile-pic">
-            <span class="author-name">Ajay Munda Murmu </span>
-            <span class="date">• Sep 20, 2024 • 4 min read</span>
+        <div class="profile-container">
+        <img src="../img/m.png" alt="Profile Picture" class="profile-pics">
+        <div class="info">
+            <span class="name">Nikhil KUMAR</span>
+            <span class="date">• Mar 20, 2024 •</span>
+            <span class="read-time">4 min read</span>
         </div>
+    </div>
         <h2>Introduction:</h2>
         <p class="intro-text">
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -72,11 +89,14 @@
 
     <div class="contai">
         <h1>FaceTech: Pioneering the Next Generation of ChatBox in FaceTech.</h1>
-        <div class="author">
-            <img src="../img/m.png" alt="Author Profile" class="profile-pic">
-            <span class="author-name">Ajay Munda Murmu </span>
-            <span class="date">• Sep 20, 2024 • 4 min read</span>
+        <div class="profile-container">
+        <img src="../img/m.png" alt="Profile Picture" class="profile-pics">
+        <div class="info">
+            <span class="name">Nikhil KUMAR</span>
+            <span class="date">• Mar 20, 2024 •</span>
+            <span class="read-time">4 min read</span>
         </div>
+    </div>
         <h2>Introduction:</h2>
         <p class="intro-text">
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -84,11 +104,14 @@
         <p>
              <div class="contai">
         <h1>FaceTech: Pioneering the Next Generation of ChatBox in FaceTech.</h1>
-        <div class="author">
-            <img src="../img/m.png" alt="Author Profile" class="profile-pic">
-            <span class="author-name">Ajay Munda Murmu </span>
-            <span class="date">• Sep 20, 2024 • 4 min read</span>
+        <div class="profile-container">
+        <img src="../img/m.png" alt="Profile Picture" class="profile-pics">
+        <div class="info">
+            <span class="name">Nikhil KUMAR</span>
+            <span class="date">• Mar 20, 2024 •</span>
+            <span class="read-time">4 min read</span>
         </div>
+    </div>
         <h2>Introduction:</h2>
         <p class="intro-text">
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!
@@ -142,6 +165,7 @@
     </div>
 </section>
 
+</section>
 <footer>
     <div class="footer-content">
       <p>Thank you for visiting our website. Stay connected with us through our social media channels.</p>
