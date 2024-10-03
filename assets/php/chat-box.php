@@ -28,6 +28,8 @@
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
             <a href="blog.php">Blog</a>
+            <a href="assets/php/logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
+
         
         </div>
     </header>

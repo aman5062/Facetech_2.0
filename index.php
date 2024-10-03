@@ -38,6 +38,7 @@ if(!isset($_SESSION["user"])){
             <a href="index.php">Home</a>
             <a href="assets/php/news.php">News</a>
             <a href="assets/php/blog.php">Blog</a>
+            <a href="assets/php/logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
         
         </div>
     </header>

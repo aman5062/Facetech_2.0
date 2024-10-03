@@ -25,9 +25,15 @@
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
             <a href="blog.php">Blog</a>
-        
+            <a href="assets/php/logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
+
         </div>
     </header>
+<div class="up_blog">
+    <a href="upload_Blog.php"><i class="fa-solid fa-circle-plus"></i> &nbsp;Upload Blogs
+    </a>
+</div>
+
 
 <section class="article-section">
     <h2>More Blogs</h2>
