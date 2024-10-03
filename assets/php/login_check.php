@@ -25,5 +25,5 @@
     }
     else{
         echo "wrong username";
-    }
+    } 
 ?>
