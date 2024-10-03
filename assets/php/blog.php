@@ -31,11 +31,11 @@
 
 <section class="article-section">
 
-<div class="btn_upload">
+<!-- <div class="btn_upload">
     <button>
           <a href="upload_Blog.php" id="side">Click For Uploading Blog</a> 
     </button>
-</div>
+</div> -->
     <h2>More Blogs</h2>
     <div class="article-grid">
         <div class="article-card">
