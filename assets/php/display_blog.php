@@ -24,6 +24,7 @@
         <div class="header-right">
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
+
             <a href="blog.php">Blog</a>
             <a href="assets/php/logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
 
@@ -41,11 +42,14 @@
 <section id="write">
     <div class="contai">
         <h1>FaceTech: Pioneering the Next Generation of ChatBox in FaceTech.</h1>
-        <div class="author">
-            <img src="../img/m.png" alt="Author Profile" class="profile-pic">
-            <span class="author-name">Ajay Munda Murmu </span>
-            <span class="date">• Sep 20, 2024 • 4 min read</span>
+        <div class="profile-container">
+        <img src="../img/m.png" alt="Profile Picture" class="profile-pics">
+        <div class="info">
+            <span class="name">Nikhil KUMAR</span>
+            <span class="date">• Mar 20, 2024 •</span>
+            <span class="read-time">4 min read</span>
         </div>
+    </div>
         <h2>Introduction:</h2>
         <p class="intro-text">
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!
@@ -53,11 +57,14 @@
     </div>
     <div class="contai">
         <h1>FaceTech: Pioneering the Next Generation of ChatBox in FaceTech.</h1>
-        <div class="author">
-            <img src="../img/m.png" alt="Author Profile" class="profile-pic">
-            <span class="author-name">Ajay Munda Murmu </span>
-            <span class="date">• Sep 20, 2024 • 4 min read</span>
+        <div class="profile-container">
+        <img src="../img/m.png" alt="Profile Picture" class="profile-pics">
+        <div class="info">
+            <span class="name">Nikhil KUMAR</span>
+            <span class="date">• Mar 20, 2024 •</span>
+            <span class="read-time">4 min read</span>
         </div>
+    </div>
         <h2>Introduction:</h2>
         <p class="intro-text">
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!
@@ -66,11 +73,14 @@
 
     <div class="contai">
         <h1>FaceTech: Pioneering the Next Generation of ChatBox in FaceTech.</h1>
-        <div class="author">
-            <img src="../img/m.png" alt="Author Profile" class="profile-pic">
-            <span class="author-name">Ajay Munda Murmu </span>
-            <span class="date">• Sep 20, 2024 • 4 min read</span>
+        <div class="profile-container">
+        <img src="../img/m.png" alt="Profile Picture" class="profile-pics">
+        <div class="info">
+            <span class="name">Nikhil KUMAR</span>
+            <span class="date">• Mar 20, 2024 •</span>
+            <span class="read-time">4 min read</span>
         </div>
+    </div>
         <h2>Introduction:</h2>
         <p class="intro-text">
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -79,11 +89,14 @@
 
     <div class="contai">
         <h1>FaceTech: Pioneering the Next Generation of ChatBox in FaceTech.</h1>
-        <div class="author">
-            <img src="../img/m.png" alt="Author Profile" class="profile-pic">
-            <span class="author-name">Ajay Munda Murmu </span>
-            <span class="date">• Sep 20, 2024 • 4 min read</span>
+        <div class="profile-container">
+        <img src="../img/m.png" alt="Profile Picture" class="profile-pics">
+        <div class="info">
+            <span class="name">Nikhil KUMAR</span>
+            <span class="date">• Mar 20, 2024 •</span>
+            <span class="read-time">4 min read</span>
         </div>
+    </div>
         <h2>Introduction:</h2>
         <p class="intro-text">
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -91,11 +104,14 @@
         <p>
              <div class="contai">
         <h1>FaceTech: Pioneering the Next Generation of ChatBox in FaceTech.</h1>
-        <div class="author">
-            <img src="../img/m.png" alt="Author Profile" class="profile-pic">
-            <span class="author-name">Ajay Munda Murmu </span>
-            <span class="date">• Sep 20, 2024 • 4 min read</span>
+        <div class="profile-container">
+        <img src="../img/m.png" alt="Profile Picture" class="profile-pics">
+        <div class="info">
+            <span class="name">Nikhil KUMAR</span>
+            <span class="date">• Mar 20, 2024 •</span>
+            <span class="read-time">4 min read</span>
         </div>
+    </div>
         <h2>Introduction:</h2>
         <p class="intro-text">
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in non blanditiis qui, aliquam soluta ea ipsam ab, sit voluptas ipsa. Enim ea neque ullam obcaecati reprehenderit atque voluptatum ratione!

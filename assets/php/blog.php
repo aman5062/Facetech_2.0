@@ -26,7 +26,6 @@
             <a href="news.php">News</a>
             <a href="blog.php">Blog</a>
             <a href="assets/php/logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
-
         </div>
     </header>
 <div class="up_blog">
@@ -36,6 +35,12 @@
 
 
 <section class="article-section">
+
+<!-- <div class="btn_upload">
+    <button>
+          <a href="upload_Blog.php" id="side">Click For Uploading Blog</a> 
+    </button>
+</div> -->
     <h2>More Blogs</h2>
     <div class="article-grid">
         <div class="article-card">
@@ -47,6 +52,7 @@
                 <a href="display_blog.php"><div class="load">Load More</div></a>
             </div>
         </div>
+        
         <div class="article-card">
             <img src="../img/iPhone.png" alt="Artificial Intelligence">
             <div class="article-content">
@@ -57,6 +63,7 @@
 
             </div>
         </div>
+ 
         <div class="article-card">
             <img src="../img/web.png" alt="5G Network">
             <div class="article-content">

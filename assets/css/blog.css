@@ -89,19 +89,90 @@ header a:hover {
     color: #ff0000;
     transition: color 0.3s ease-in-out;
 }
+
+/* -----------Upload Btn----------- */
+#click {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #45a049; 
+  padding: 12px 24px;
+  border-radius: 30px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease; 
+}
+
+#click:hover {
+  background-color: #2980b9;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-2px); 
+}
+
+#click a {
+  text-decoration: none; 
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px; 
+  transition: color 0.3s ease;
+}
+
+#click a:hover {
+  color: #ecf0f1; 
+}
+
+
+
+
+.btn_upload {
+  display: inline-block;
+  margin-left: 65rem;
+}
+
+.btn_upload button {
+  background-color: #45a049; 
+  border: none;
+  border-radius: 25px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  outline: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn_upload button:hover {
+  background-color: #42bfcf; 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-2px); 
+}
+
+.btn_upload button:active {
+  transform: translateY(0); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.btn_upload a {
+  color: white; 
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn_upload a:hover {
+  color: #fffbe6;
+}
+
+
 /* <------------> */
- #click{
-    text-align: center;
-    padding: 30px;
-    border-radius: 9px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-    margin: 50px auto;
- }
+
 .pic{
     display: flex;
     margin-top: 10px;
-   margin-left: 30px;
+   margin-left: 10px;
     height: 70vh;
 
 }
@@ -131,9 +202,9 @@ h1 {
     margin-bottom: 20px;
 }
 
-.profile-pic {
-    width: 40px;
-    height: 40px;
+.profile-pics {
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     margin-right: 10px;
 }
