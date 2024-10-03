@@ -242,6 +242,19 @@ a{
   text-decoration: none;
   color: white;
 }
+.load{
+  width: 120px;
+  height: 30px;
+  display: flex;
+  border-radius: 50px;
+  background-color:#735DA5 ;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+  margin:20px 20px 0 0;
+  font-weight: bold;
+}
  /*------article------- */
 
  .article-section {
