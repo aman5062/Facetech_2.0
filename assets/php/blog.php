@@ -24,12 +24,18 @@
         <div class="header-right">
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
-            <a href="blog.php">Blog</a>
+            <a href="assets/php/blog.php">Blog</a>
         
         </div>
     </header>
 
 <section class="article-section">
+
+<div class="btn_upload">
+    <button>
+          <a href="upload_Blog.php" id="side">Click For Uploading Blog</a> 
+    </button>
+</div>
     <h2>More Blogs</h2>
     <div class="article-grid">
         <div class="article-card">
@@ -40,6 +46,7 @@
                 <p>Introduction: Web development is a dynamic and ever-evolving field, and staying relevant as a web developer...</p>
             </div>
         </div>
+        
         <div class="article-card">
             <img src="../img/iPhone.png" alt="Artificial Intelligence">
             <div class="article-content">
@@ -48,6 +55,7 @@
                 <p>Artificial intelligence has been one of the most rapidly advancing fields in the last few decades...</p>
             </div>
         </div>
+ 
         <div class="article-card">
             <img src="../img/web.png" alt="5G Network">
             <div class="article-content">

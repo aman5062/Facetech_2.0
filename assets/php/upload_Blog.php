@@ -23,12 +23,12 @@
          <div class="header-right">
              <a href="../../index.php">Home</a>
              <a href="news.php">News</a>
-             <a href="blog.php">Blog</a>
+             <a href="assets/php/blog.php">Blog</a>
          
          </div>
      </header>
 
-    <center><div id="click" ><a href="blog.html">Click Here For Blog </a></div></center>
+    <center><div id="click" ><a href="../php/blog.php">Go to Blog Page </a></div></center>
 
     <section id="Upload">
         <div class="form-section">
@@ -102,7 +102,7 @@
       </ul> -->
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2024 Hack2Transform| Designed by Debugers</p>
+      <p>&copy; 2024 FaceTech| Designed by Debugers</p>
     </div>
   </footer>
     <script src="../js/script.js"></script>

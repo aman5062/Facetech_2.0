@@ -19,7 +19,7 @@
         <div class="header-right">
             <a href="#">Home</a>
             <a href="#">News</a>
-            <a href="#">Blog</a>
+            <a href="assets/php/blog.php">Blog</a>
         
         </div>
     </header>
