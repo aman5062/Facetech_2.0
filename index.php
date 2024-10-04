@@ -26,7 +26,7 @@ if(!isset($_SESSION["user"])){
        <div class="header_left">
        <div class="header-left">
             <div class="profile"></div>
-            <a href="#" class="sale">Hi <?php echo $_SESSION["username"]; ?></a>
+            <a href="assets/php/profilepage.php" class="sale">Hi <?php echo $_SESSION["username"]; ?></a>
         </div>
 
         <div class="header-center">
