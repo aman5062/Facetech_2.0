@@ -87,7 +87,7 @@ if(!isset($_SESSION["user"])){
             </div>
         </div>
         <div class="suggest_hmpg">
-            <div class="news_hmpg">
+           <a href="assets/php/news.php" class="for-news"><div class="news_hmpg">
                 <div class="news_img">
                     <img src="assets/pictures/news-2.jpeg" alt="" width="100%">
                 </div>
@@ -113,7 +113,8 @@ if(!isset($_SESSION["user"])){
                     </div>
                 </div>
 
-            </div><br>
+            </div>
+            </a><br>
             <hr><br>
             <div class="suggestion_hmpg">
                 <div class="authors">
