@@ -27,8 +27,10 @@ if(!isset($_SESSION["user"])){
 <header>
        <div class="header_left">
        <div class="header-left">
+
        <a href="profilepage.php"><div class="profile"></div></a>
             <a href="#" class="sale">Hi  <?php echo $_SESSION["username"];?></a>
+
         </div>
 
         <div class="header-center">
