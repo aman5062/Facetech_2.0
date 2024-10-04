@@ -12,8 +12,8 @@
     <header>
        <div class="header_left">
        <div class="header-left">
-            <div class="profile"></div>
-            <a href="#" class="sale">Hi  <?php session_start(); echo $_SESSION["username"];?></a>
+       <a href="profilepage.php"><div class="profile"></div></a>
+       <a href="#" class="sale">Hi  <?php session_start(); echo $_SESSION["username"];?></a>
         </div>
 
         <div class="header-center">
@@ -25,11 +25,22 @@
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
             <a href="blog.php">Blog</a>
-        
+            <a href="assets/php/logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
         </div>
     </header>
+<div class="up_blog">
+    <a href="upload_Blog.php"><i class="fa-solid fa-circle-plus"></i> &nbsp;Upload Blogs
+    </a>
+</div>
+
 
 <section class="article-section">
+
+<!-- <div class="btn_upload">
+    <button>
+          <a href="upload_Blog.php" id="side">Click For Uploading Blog</a> 
+    </button>
+</div> -->
     <h2>More Blogs</h2>
     <div class="article-grid">
         <div class="article-card">
@@ -38,22 +49,29 @@
                 <div class="author">Ajay Kumar</div>
                 <h3>Things a Web Developer Needs to Learn</h3>
                 <p>Introduction: Web development is a dynamic and ever-evolving field, and staying relevant as a web developer...</p>
+                <a href="display_blog.php"><div class="load">Load More</div></a>
             </div>
         </div>
+        
         <div class="article-card">
             <img src="../img/iPhone.png" alt="Artificial Intelligence">
             <div class="article-content">
                 <div class="author">Nikhil kumar </div>
                 <h3>ChatGPT vs Burd: A Comprehensive Comparison</h3>
                 <p>Artificial intelligence has been one of the most rapidly advancing fields in the last few decades...</p>
+                <a href="display_blog.php"><div class="load">Load More</div></a>
+
             </div>
         </div>
+ 
         <div class="article-card">
             <img src="../img/web.png" alt="5G Network">
             <div class="article-content">
                 <div class="author">Manoj kumar</div>
                 <h3>5G Network and its Implementation: A Guide for Beginners</h3>
                 <p>The 5G network is the latest generation of mobile networks that promises to revolutionize the way we...</p>
+                <a href="display_blog.php"><div class="load">Load More</div></a>
+
             </div>
         </div>
     </div> <br><br>
@@ -65,6 +83,8 @@
                 <div class="author">Ajay Kumar</div>
                 <h3>Things a Web Developer Needs to Learn</h3>
                 <p>Introduction: Web development is a dynamic and ever-evolving field, and staying relevant as a web developer...</p>
+                <a href="display_blog.php"><div class="load">Load More</div></a>
+
             </div>
         </div>
         <div class="article-card">
@@ -73,6 +93,8 @@
                 <div class="author">Nikhil kumar </div>
                 <h3>ChatGPT vs Burd: A Comprehensive Comparison</h3>
                 <p>Artificial intelligence has been one of the most rapidly advancing fields in the last few decades...</p>
+                <a href="display_blog.php"><div class="load">Load More</div></a>
+
             </div>
         </div>
         <div class="article-card">
@@ -81,6 +103,8 @@
                 <div class="author">Manoj kumar</div>
                 <h3>5G Network and its Implementation: A Guide for Beginners</h3>
                 <p>The 5G network is the latest generation of mobile networks that promises to revolutionize the way we...</p>
+                <a href="display_blog.php"><div class="load">Load More</div></a>
+
             </div>
         </div>
     </div> <br> <br>

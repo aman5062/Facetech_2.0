@@ -21,14 +21,16 @@ if(!isset($_SESSION["user"])){
     <link rel="stylesheet" href="../css/news-style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 <header>
        <div class="header_left">
        <div class="header-left">
-            <div class="profile"></div>
-            <a href="#" class="sale">Hi  <?php 
-             echo $_SESSION["username"];?></a>
+
+       <a href="profilepage.php"><div class="profile"></div></a>
+            <a href="#" class="sale">Hi  <?php echo $_SESSION["username"];?></a>
+
         </div>
 
         <div class="header-center">
@@ -39,8 +41,8 @@ if(!isset($_SESSION["user"])){
         <div class="header-right">
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
-            <a href="blog.html">Blog</a>
-            <a href="logout.php">Logout</a>
+            <a href="blog.php">Blog</a>
+            <a href="assets/php/logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
         
         </div>
     </header>
