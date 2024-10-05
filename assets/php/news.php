@@ -48,43 +48,122 @@ if(!isset($_SESSION["user"])){
     </header>
     <!-- Navbar -->
         <nav class="navbar">
-            <div class="logo">NewsToday</div> 
+            <div class="logo">Today's News</div> 
             
         </nav>
 
-    <?php
-        include_once ("db.php");
-        $sql = "SELECT * FROM `news`";
-        $result = mysqli_query($conn,$sql);
-        if($result-> num_rows>0){
-            while($row = $result->fetch_assoc()){
-                echo "
-                 <main class='news-content'>
-        <div class='news-image'>
-            <img src='".$row["Image"]."' alt='News Image'>
-        </div>
-        <div class='news-text'>
-            <h1>".$row["Title"]."</h1>
-            <p>".$row["Content"]."</p>
-        </div>
-    </main>
-                ";
-            }
-        }
-        else{
-            echo "no data";
-        }
 
-    ?>
+
+
+        <!-- backend data was here -->
+
+        <div id="news-container">
+            <div class="layer-one">
+                <div class="new-box">
+                    <div class="new-img">
+                        <img src="../img/facetech-news-1.jpeg" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="news-texts">
+                        <h2>Breaking News....</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, tempore itaque culpa iste iure distinctio quidem rerum voluptas doloribus laborum ea enim eum consequatur asperiores ab tenetur odio! Nesciunt, tempore?</p>
+                    </div>
+                    <button > <a href="main-news-page.php">
+                        Read More
+                        </a>
+                    </button>
+                </div>
+                <div class="new-box">
+                    <div class="new-img">
+                        <img src="../img/facetech-news-2.jpg" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="news-texts">
+                        <h2>Breaking News....</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, tempore itaque culpa iste iure distinctio quidem rerum voluptas doloribus laborum ea enim eum consequatur asperiores ab tenetur odio! Nesciunt, tempore?</p>
+                    </div>
+                    <button > <a href="main-news-page.php">
+                        Read More
+                        </a>
+                    </button>
+                </div>
+                <div class="new-box">
+                    <div class="new-img">
+                        <img src="../img/facetech-news-3.jpg" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="news-texts">
+                        <h2>Breaking News....</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, tempore itaque culpa iste iure distinctio quidem rerum voluptas doloribus laborum ea enim eum consequatur asperiores ab tenetur odio! Nesciunt, tempore?</p>
+                    </div>
+                    <button > <a href="main-news-page.php">
+                        Read More
+                        </a>
+                    </button>
+                </div>
+                <div class="new-box">
+                    <div class="new-img">
+                        <img src="../img/facetech-news-3.jpg" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="news-texts">
+                        <h2>Breaking News....</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, tempore itaque culpa iste iure distinctio quidem rerum voluptas doloribus laborum ea enim eum consequatur asperiores ab tenetur odio! Nesciunt, tempore?</p>
+                    </div>
+                    <button > <a href="main-news-page.php">
+                        Read More
+                        </a>
+                    </button>
+                </div>
+                <div class="new-box">
+                    <div class="new-img">
+                        <img src="../img/facetech-news-1.jpeg" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="news-texts">
+                        <h2>Breaking News....</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, tempore itaque culpa iste iure distinctio quidem rerum voluptas doloribus laborum ea enim eum consequatur asperiores ab tenetur odio! Nesciunt, tempore?</p>
+                    </div>
+                    <button > <a href="main-news-page.php">
+                        Read More
+                        </a>
+                    </button>
+                </div>
+                <div class="new-box">
+                    <div class="new-img">
+                        <img src="../img/facetech-news-2.jpg" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="news-texts">
+                        <h2>Breaking News....</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, tempore itaque culpa iste iure distinctio quidem rerum voluptas doloribus laborum ea enim eum consequatur asperiores ab tenetur odio! Nesciunt, tempore?</p>
+                    </div>
+                    <button > <a href="main-news-page.php">
+                        Read More
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
 
 
     <!-- Footer Section -->
-    <footer>
+    <!-- <footer class="news-footer">
     <div class="footer-bottom">
       <p>&copy; 2024 FaceTech| Designed by Debuggers</p>
     </div>
-  </footer>
-   </section>
+  </footer> -->
+   
 
     <script >
         document.addEventListener("DOMContentLoaded", function() {
