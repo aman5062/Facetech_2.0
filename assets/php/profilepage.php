@@ -170,7 +170,7 @@
                                 <h4>Nikhil Kumar</h4>
                                 <p>Upper Chowk , Khunti • 5min</p>
                             </div>
-                        </div>
+                        </div>  
                         <div class="post-content">
                             <p>Hey connections,👋<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, doloremque obcaecati. </p>
                             <img src="../img/iPhone.png" alt="Certificate" class="certificate-image">
