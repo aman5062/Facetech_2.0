@@ -21,7 +21,8 @@
             <a href="#">Home</a>
             <a href="#">News</a>
             <a href="#">Blog</a>
-        
+            <a href="assets/php/logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
+
         </div>
     </header>
     <!-- Profile Section -->
