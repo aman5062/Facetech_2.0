@@ -157,14 +157,14 @@ if(!isset($_SESSION["user"])){
 
    
 
-
-    <!-- Footer Section -->
-    <!-- <footer class="news-footer">
-    <div class="footer-bottom">
-      <p>&copy; 2024 FaceTech| Designed by Debuggers</p>
+<footer>
+    <div class="footer-content">
+      <p >Thank you for visiting our website. Stay connected with us through our social media channels.</p>
     </div>
-  </footer> -->
-   
+    <div class="footer-bottom">
+      <p>&copy; 2024 FaceTech| Designed by Debugers</p>
+    </div>
+</footer>
 
     <script >
         document.addEventListener("DOMContentLoaded", function() {
