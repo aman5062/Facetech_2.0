@@ -36,7 +36,8 @@ if(!isset($_SESSION["user"])){
         </div>
        </div>
 
-        <div class="header-right">
+        <div class="header-right">  
+            <a href="assets/php/chat-box.php"><i class="fa-solid fa-comments"></i></a>
             <a href="index.php">Home</a>
             <a href="assets/php/news.php">News</a>
             <a href="assets/php/blog.php">Blog</a>
