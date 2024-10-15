@@ -50,6 +50,10 @@ if(!isset($_SESSION["user"])){
     <!-- Navbar -->
         <nav class="navbar">
             <div class="logo">Today's News</div> 
+            <div class="up_blog">
+    <a href="upload-news.php"><i class="fa-solid fa-circle-plus"></i> &nbsp;Upload News
+    </a>
+</div>
             
         </nav>
 
