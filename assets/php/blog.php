@@ -124,7 +124,7 @@
       </ul> -->
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2024 FaceTech| Designed by Debugers</p>
+      <p>&copy; 2024 FaceTech| Designed by Debuggers</p>
     </div>
   </footer>
 </body>
