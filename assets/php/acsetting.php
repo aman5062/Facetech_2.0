@@ -11,7 +11,7 @@
 <header>
        <div class="header_left">
        <div class="header-left">
-       <a href="assets/php/profilepage.php"><div class="profile"></div></a>
+       <a href="profilepage.php"><div class="profile"></div></a>
        <a href="#" class="sale">Hi <?php session_start(); echo $_SESSION["username"];?></a>
         </div>
 

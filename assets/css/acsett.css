@@ -40,7 +40,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 11px 20px;
     background-color: #735DA5;
     border-bottom: 1px solid #ccc;
     position: relative;
@@ -86,19 +86,22 @@ header {
 }
 
 .header-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  /* margin-right: 20px; */
+  border-radius: 50%;
+  /* overflow: hidden; */
+  height: 45px;
 }
 
 .header-center input {
     height: 40px;
     width: 300px;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #ccc;
-    border-radius: 50px;
+    border-radius: 20px;
     font-size: 16px;
     transition: width 0.3s ease-in-out;
 }
@@ -159,7 +162,7 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   transition: border 0.3s ease;
 }
 
