@@ -37,8 +37,8 @@
     <div class="nav-tabs">
         <a href="../php/profilepage.php">Posts</a>
         <a href="../php/about_profile.php">About</a>
-        <a href="#">Friends</a>
-        <a href="#">Photos</a>
+        <a href="../php/about_friends.php">Friends</a>
+        <a href="../php/about_photo.php">Photos</a>
     </div>
 
     
