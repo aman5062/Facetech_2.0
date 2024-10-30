@@ -21,9 +21,11 @@
        </div>
 
         <div class="header-right">
+            <a href="chat-box.php"><i class="fa-solid fa-comments"></i></a>
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
             <a href="blog.php">Blog</a>
+            <a href="acsetting.php"><i class="fa-solid fa-gear"></i></a>
             <a href="assets/php/logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
         </div>
     </header>
@@ -37,10 +39,10 @@
 
     <!-- Navigation Tabs -->
     <div class="nav-tabs">
-        <a href="../php/about_profile.php">Posts</a>
+        <a href="../php/profilepage.php">Posts</a>
         <a href="../php/about_profile.php">About</a>
-        <a href="#">Friends</a>
-        <a href="#">Photos</a>
+        <a href="../php/about_friends.php">Friends</a>
+        <a href="../php/about_photo.php">Photos</a>
     </div>
 
     <!-- Content Section -->
@@ -174,7 +176,7 @@
                                 <h4>Nikhil Kumar</h4>
                                 <p>Upper Chowk , Khunti • 5min</p>
                             </div>
-                        </div>
+                        </div>  
                         <div class="post-content">
                             <p>Hey connections,👋<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, doloremque obcaecati. </p>
                             <img src="../img/iPhone.png" alt="Certificate" class="certificate-image">

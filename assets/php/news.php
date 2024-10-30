@@ -39,6 +39,7 @@ if(!isset($_SESSION["user"])){
        </div>
 
         <div class="header-right">
+            <a href="chat-box.php"><i class="fa-solid fa-comments"></i></a>
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
             <a href="blog.php">Blog</a>
@@ -49,6 +50,10 @@ if(!isset($_SESSION["user"])){
     <!-- Navbar -->
         <nav class="navbar">
             <div class="logo">Today's News</div> 
+            <div class="up_blog">
+    <a href="upload-news.php"><i class="fa-solid fa-circle-plus"></i> &nbsp;Upload News
+    </a>
+</div>
             
         </nav>
 
@@ -156,14 +161,14 @@ if(!isset($_SESSION["user"])){
 
    
 
-
-    <!-- Footer Section -->
-    <!-- <footer class="news-footer">
-    <div class="footer-bottom">
-      <p>&copy; 2024 FaceTech| Designed by Debuggers</p>
+<footer>
+    <div class="footer-content">
+      <p >Thank you for visiting our website. Stay connected with us through our social media channels.</p>
     </div>
-  </footer> -->
-   
+    <div class="footer-bottom">
+      <p>&copy; 2024 FaceTech| Designed by Debugers</p>
+    </div>
+</footer>
 
     <script >
         document.addEventListener("DOMContentLoaded", function() {

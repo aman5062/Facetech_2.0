@@ -11,7 +11,7 @@
 
 </head>
 <body>
-
+    
 <header>
        <div class="header_left">
        <div class="header-left">
@@ -25,6 +25,7 @@
        </div>
 
         <div class="header-right">
+            <a href="chat-box.php"><i class="fa-solid fa-comments"></i></a>
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
             <a href="blog.php">Blog</a>

@@ -22,6 +22,7 @@
        </div>
 
         <div class="header-right">
+            <a href="chat-box.php"><i class="fa-solid fa-comments"></i></a>
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
             <a href="blog.php">Blog</a>
@@ -123,7 +124,7 @@
       </ul> -->
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2024 FaceTech| Designed by Debugers</p>
+      <p>&copy; 2024 FaceTech| Designed by Debuggers</p>
     </div>
   </footer>
 </body>
