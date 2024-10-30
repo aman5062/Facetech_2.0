@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram-like Chatbox</title>
+    <title>FaceTech-Chatbox</title>
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../css/chats.css">
@@ -93,7 +93,19 @@
                 <button id="send-button"><i class="fas fa-paper-plane"></i></button>
             </div>
         </div>
+    </div><br><br>
+
+
+<footer>
+    <div class="footer-content">
+      <p>Thank you for visiting our website. Stay connected with us through our social media channels.</p>
+
     </div>
+    <div class="footer-bottom">
+    <p>&copy; 2024 FaceTech. All rights reserved to Team Debugers.</p>
+    </div>
+  </footer>
+
 
     <script src="../js/chatss.js"></script>
 </body>
