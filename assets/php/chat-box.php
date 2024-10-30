@@ -15,7 +15,7 @@
 <header>
        <div class="header_left">
        <div class="header-left">
-            <div class="profile"></div>
+       <a href="profilepage.php"><div class="profile"></div></a>
             <a href="#" class="sale">Hi  <?php session_start(); echo $_SESSION["username"];?></a>
         </div>
 
@@ -28,6 +28,8 @@
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
             <a href="blog.php">Blog</a>
+            <a href="assets/php/logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
+
         
         </div>
     </header>
@@ -39,7 +41,7 @@
                 <img src="https://via.placeholder.com/40" alt="User Avatar" class="user-photo">
                 <div class="user-details">
 
-                    <span class="username"> <?php session_start(); echo $_SESSION["username"];?>
+                    <span class="username"> <?php  echo $_SESSION["username"];?>
                     </span>
 
                     <span class="last-message">Hey, how's it going?</span>

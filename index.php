@@ -25,8 +25,10 @@ if(!isset($_SESSION["user"])){
     <header>
        <div class="header_left">
        <div class="header-left">
-            <div class="profile"></div>
+
+        <a href="assets/php/profilepage.php"><div class="profile"></div></a>
             <a href="#" class="sale">Hi <?php echo $_SESSION["username"]; ?></a>
+
         </div>
 
         <div class="header-center">
@@ -38,6 +40,7 @@ if(!isset($_SESSION["user"])){
             <a href="index.php">Home</a>
             <a href="assets/php/news.php">News</a>
             <a href="assets/php/blog.php">Blog</a>
+            <a href="assets/php/logout.php"><i class="fa-solid fa-right-from-bracket"></i></a>
         
         </div>
     </header>
@@ -72,11 +75,12 @@ if(!isset($_SESSION["user"])){
             <hr>
             <br>
             <div class="reg_post">
-                <div class="article-card">
-                <div class="author">
-                <div class="profile" style="border: 2px solid;"></div> 
-                Ajay Kumar</div>
-                <h3>Things a Web Developer Needs to Learn</h3>
+                <div class="article-card" >
+                <div class="author" style="padding:10px 0 0 10px;">
+                <div class="profile" style="border: 2px solid;">
+                    <!-- <img src="assets/img/m.png" alt=""> -->
+                </div> &nbsp; Ajay Kumar</div>
+                    <h3 style="padding: 0 0 0 10px;">Things a Web Developer Needs to Learn</h3>
                 <img src="assets/img/web.png" alt="Web Development">
                 <div class="article-content">
                     <p>Introduction: Web development is a dynamic and ever-evolving field, and staying relevant as a web developer...</p>
@@ -85,7 +89,7 @@ if(!isset($_SESSION["user"])){
             </div>
         </div>
         <div class="suggest_hmpg">
-            <div class="news_hmpg">
+           <a href="assets/php/news.php" class="for-news"><div class="news_hmpg">
                 <div class="news_img">
                     <img src="assets/pictures/news-2.jpeg" alt="" width="100%">
                 </div>
@@ -111,7 +115,8 @@ if(!isset($_SESSION["user"])){
                     </div>
                 </div>
 
-            </div><br>
+            </div>
+            </a><br>
             <hr><br>
             <div class="suggestion_hmpg">
                 <div class="authors">

@@ -14,17 +14,17 @@
         <h3>Singup Here</h3>
 
         <label for="name">Name</label>
-        <input type="text" placeholder="Name" id="name" name="name">
+        <input type="text" placeholder="Name" id="name" name="name" required>
 
         <label for="email">Email</label>
-        <input type="email" placeholder="Email" id="email" name="email">
+        <input type="email" placeholder="Email" id="email" name="email" required>
 
         <label for="username">Username</label>
 
-        <input type="text" placeholder="Username" id="username" name="username">
+        <input type="text" placeholder="Username" id="username" name="username" required>
         <label for="password">Password</label>
 
-        <input type="password" placeholder="Password" id="password" name="password">
+        <input type="password" placeholder="Password" id="password" name="password" required>
         <button>Signup</button>
         <div class="sing">
             <h3>Already have an account? <a href="login.php">Login now</a></h3>
