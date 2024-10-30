@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Profile</title>
+    <title>FaceTech-Profile</title>
     <link rel="stylesheet" href="../css/blog.css">
 </head>
 <body>
@@ -192,6 +192,16 @@
                                 </button>
                             </div>
                         </div> <br><br>
+
+                        <footer>
+    <div class="footer-content">
+      <p>Thank you for visiting our website. Stay connected with us through our social media channels.</p>
+
+    </div>
+    <div class="footer-bottom">
+    <p>&copy; 2024 FaceTech. All rights reserved to Team Debugers.</p>
+    </div>
+  </footer>
     
 </body>
 </html>
