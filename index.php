@@ -30,13 +30,13 @@ if(!isset($_SESSION["user"])){
             <a href="#" class="sale">Hi <?php echo $_SESSION["username"]; ?></a>
 
         </div>
-
         <div class="header-center">
             <input type="text" placeholder="Search...">
         </div>
        </div>
 
-        <div class="header-right">
+        <div class="header-right">  
+            <a href="assets/php/chat-box.php"><i class="fa-solid fa-comments"></i></a>
             <a href="index.php">Home</a>
             <a href="assets/php/news.php">News</a>
             <a href="assets/php/blog.php">Blog</a>
@@ -89,7 +89,8 @@ if(!isset($_SESSION["user"])){
             </div>
         </div>
         <div class="suggest_hmpg">
-           <a href="assets/php/news.php" class="for-news"><div class="news_hmpg">
+           <a href="assets/php/news.php" class="for-news">
+            <div class="news_hmpg">
                 <div class="news_img">
                     <img src="assets/pictures/news-2.jpeg" alt="" width="100%">
                 </div>
