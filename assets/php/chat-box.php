@@ -61,7 +61,7 @@
             <!-- Chat Header -->
             <div class="chat-header">
                 <img src="https://via.placeholder.com/40" alt="Receiver Avatar" class="receiver-photo">
-                <span class="receiver-name">Manish Munda</span>
+                <span class="receiver-name">Manish_Munda</span>
             </div>
 
             <!-- Chat Area -->
@@ -69,7 +69,7 @@
 
             <!-- Typing Indicator -->
             <div class="typing-indicator" id="typing-indicator">
-                <span>john_doe is typing...</span>
+                <span>Manish_Munda is typing...</span>
             </div>
 
             <!-- Emoji Picker (hidden initially) -->
