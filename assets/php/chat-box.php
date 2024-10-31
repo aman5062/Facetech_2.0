@@ -60,7 +60,7 @@
             <!-- Chat Header -->
             <div class="chat-header">
                 <img src="https://via.placeholder.com/40" alt="Receiver Avatar" class="receiver-photo">
-                <span class="receiver-name">john_doe</span>
+                <span class="receiver-name">Yadav_ji</span>
             </div>
 
             <!-- Chat Area -->
