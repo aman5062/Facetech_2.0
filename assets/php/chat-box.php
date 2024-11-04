@@ -34,7 +34,13 @@
         
         </div>
     </header>
-
+<?php
+if(isset($_GET['u'])){
+$receiver = $_GET["u"];
+}else{
+    $receiver = "No user Selected";
+}
+?>
     <div class="chatbox-container">
         <!-- Conversation List -->
         <div class="conversation-list">
@@ -49,10 +55,28 @@
                 </div>
                 
             </div>
-            <container>
-                    <menu-items>
+            <container id="chat_names">
+            <?php 
+            
+            include_once "db.php";
+            $user = $_SESSION["username"];
+            $sql = "SELECT `Username` FROM user WHERE Username!='$user'";
+            $result = mysqli_query($conn, $sql);
+            // $row = $result-> fetch_assoc();
+            while($rows = $result->fetch_assoc()){
+                echo "<a class='menu-items' href='chat-box.php?u=".$rows["Username"]."'><menu-items>".$rows["Username"]."</menu-items></a>";
+            }
+            
+
+
+            ?>
+
+
+
+                    <!-- <menu-items>
                         user names
                     </menu-items>
+                     -->
                 </container> 
         </div>
 
@@ -61,16 +85,23 @@
             <!-- Chat Header -->
             <div class="chat-header">
                 <img src="https://via.placeholder.com/40" alt="Receiver Avatar" class="receiver-photo">
-                <span class="receiver-name">john_doe</span>
+                <span class="receiver-name"><?php echo $receiver; ?></span>
             </div>
 
             <!-- Chat Area -->
-            <div class="chat-area" id="chat-area"></div>
+            <div class="chat-area" id="chat-area">
 
-            <!-- Typing Indicator -->
-            <div class="typing-indicator" id="typing-indicator">
-                <span>john_doe is typing...</span>
+            <?php
+            $sql_chat = "SELECT Message FROM chat WHERE ( `Sender` = '$user' AND `Receiver` = '$receiver' ) OR ( `Sender` = '$receiver' AND `Receiver` = '$user' )";
+            $result_chat = mysqli_query($conn, $sql_chat);
+            while($mess = $result_chat->fetch_assoc()){
+                echo "<div class='menu-items'>". $mess["Message"]."</div>";
+            }
+?>
             </div>
+
+         
+            
 
             <!-- Emoji Picker (hidden initially) -->
             <div class="emoji-picker" id="emoji-picker">
@@ -85,16 +116,18 @@
             </div>
 
             <!-- Message Input Bar -->
-            <div class="message-input-area">
-                <button id="emoji-button"><i class="fas fa-smile"></i></button>
+            <form class="message-input-area" method="post" action="chat_sender.php">
+                <!-- <button id="emoji-button"><i class="fas fa-smile"></i></button>
                 <button id="image-upload"><i class="fas fa-camera"></i></button>
-                <input type="file" id="file-upload" hidden accept="image/*">
-                <input type="text" id="message-input" placeholder="Type a message...">
+                <input type="file" id="file-upload" hidden accept="image/*"> -->
+                <input type="hidden" name="sender" value="<?php echo $user; ?>">
+                <input type="hidden" name="reciver" value="<?php echo $receiver; ?>">
+                <input type="text" id="message-input" placeholder="Type a message..." name="message">
                 <button id="send-button"><i class="fas fa-paper-plane"></i></button>
-            </div>
+        </form>
         </div>
     </div>
 
-    <script src="../js/chatss.js"></script>
+   
 </body>
 </html>
