@@ -32,7 +32,7 @@
          </div>
      </header>
 
-    <center><div id="click" ><a href="../php/blog.php">Go to Blog Page </a></div></center>
+    <center><div id="click" ><a href="../php/blog.php">Go to The Blog Page </a></div></center>
 
     <section id="Upload">
         <div class="form-section">
@@ -73,7 +73,7 @@
             <div class="article-content">
                 <div class="author">Ajay Kumar</div>
                 <h3>Things a Web Developer Needs to Learn</h3>
-                <p>Introduction: Web development is a dynamic and ever-evolving field, and staying relevant as a web developer...</p>
+                <p>Introduction: "Web development is a fast-paced, constantly evolving field, and keeping skills sharp is essential for success as a web developer."</p>
             </div>
         </div>
         <div class="article-card">
@@ -98,15 +98,10 @@
 <footer>
     <div class="footer-content">
       <p>Thank you for visiting our website. Stay connected with us through our social media channels.</p>
-      <!-- <ul class="socials">
-        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-      </ul> -->
+
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2024 FaceTech| Designed by Debugers</p>
+    <p>&copy; 2024 FaceTech. All rights reserved to Team Debugers.</p>
     </div>
   </footer>
     <script src="../js/script.js"></script>

@@ -169,15 +169,10 @@
 <footer>
     <div class="footer-content">
       <p>Thank you for visiting our website. Stay connected with us through our social media channels.</p>
-      <!-- <ul class="socials">
-        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-      </ul> -->
+     
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2024 Hack2Transform| Designed by Debugers</p>
+    <p>&copy; 2024 FaceTech. All rights reserved to Team Debugers.</p>
     </div>
   </footer>
 </body>

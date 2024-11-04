@@ -25,10 +25,10 @@ if(isset($_SESSION["user"])){
         <h3>Login Here</h3>
 
         <label for="username">Username</label>
-        <input type="text" placeholder="Email or Phone" id="username" name="username">
+        <input type="text" placeholder="Email or Phone" id="username" name="username" required>
 
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password" name="password">
+        <input type="password" placeholder="Password" id="password" name="password" required>
 
         <button>Log In</button>
         <div class="sing">

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram-like Chatbox</title>
+    <title>FaceTech-Chatbox</title>
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../css/chats.css">
@@ -11,7 +11,7 @@
 
 </head>
 <body>
-
+    
 <header>
        <div class="header_left">
        <div class="header-left">
@@ -25,6 +25,7 @@
        </div>
 
         <div class="header-right">
+            <a href="chat-box.php"><i class="fa-solid fa-comments"></i></a>
             <a href="../../index.php">Home</a>
             <a href="news.php">News</a>
             <a href="blog.php">Blog</a>
@@ -41,7 +42,7 @@
                 <img src="https://via.placeholder.com/40" alt="User Avatar" class="user-photo">
                 <div class="user-details">
 
-                    <span class="username"> <?php session_start(); echo $_SESSION["username"];?>
+                    <span class="username"> <?php  echo $_SESSION["username"];?>
                     </span>
 
                     <span class="last-message">Hey, how's it going?</span>
@@ -60,7 +61,7 @@
             <!-- Chat Header -->
             <div class="chat-header">
                 <img src="https://via.placeholder.com/40" alt="Receiver Avatar" class="receiver-photo">
-                <span class="receiver-name">john_doe</span>
+                <span class="receiver-name">Manish_Munda</span>
             </div>
 
             <!-- Chat Area -->
@@ -68,7 +69,7 @@
 
             <!-- Typing Indicator -->
             <div class="typing-indicator" id="typing-indicator">
-                <span>john_doe is typing...</span>
+                <span>Manish_Munda is typing...</span>
             </div>
 
             <!-- Emoji Picker (hidden initially) -->
@@ -92,7 +93,19 @@
                 <button id="send-button"><i class="fas fa-paper-plane"></i></button>
             </div>
         </div>
+    </div><br><br>
+
+
+<footer>
+    <div class="footer-content">
+      <p>Thank you for visiting our website. Stay connected with us through our social media channels.</p>
+
     </div>
+    <div class="footer-bottom">
+    <p>&copy; 2024 FaceTech. All rights reserved to Team Debugers.</p>
+    </div>
+  </footer>
+
 
     <script src="../js/chatss.js"></script>
 </body>

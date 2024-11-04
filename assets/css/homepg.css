@@ -74,7 +74,9 @@ input[type="file"]::-webkit-file-upload-button:hover{
 .suggest_hmpg{
     width: 23%;
     /* border: 2px solid; */
-
+}
+.for-news{
+    color: black;
 }
 .news_hmpg{
     width: 100%;
@@ -83,6 +85,12 @@ input[type="file"]::-webkit-file-upload-button:hover{
     border-radius: 10px;
     margin-top: 10px;
     padding: 10px;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.news_hmpg:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 5px 5px rgb(54, 54, 54,.3);
 }
 .news_img{
     width: 50%;
